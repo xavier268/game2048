@@ -20,6 +20,7 @@ import java.util.Random;
 public class BoardImpl implements Board {
 
     protected int size;
+    protected int score = 0;
     protected Random rdm = new Random(System.currentTimeMillis());
     protected final Map<Position, Integer> content = new HashMap();
 
@@ -51,6 +52,7 @@ public class BoardImpl implements Board {
     @Override
     public final void reset() {
         content.clear();
+        score = 0;
     }
 
     @Override
@@ -190,6 +192,7 @@ public class BoardImpl implements Board {
         for (int i = 0; i < size - 1; i++) {
             if (at(sel.get(i)) != null && at(sel.get(i)).equals(at(sel.get(i + 1)))) {
                 set(sel.get(i), 2 * at(sel.get(i)));
+                score += at(sel.get(i));
                 unset(sel.get(i + 1));
             }
         }
@@ -334,8 +337,7 @@ public class BoardImpl implements Board {
 
     @Override
     public int getScore() {
-        int s = 0;
-        return content.values().stream().reduce(s, Integer::sum);
+        return score;
     }
 
 }
