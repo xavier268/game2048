@@ -23,12 +23,19 @@ public class AutoRandom implements Auto {
     private static long SEED = 0;
 
     /**
-     * Generate a random direction.
+     * Select a valid, random, direction.
      *
+     * @param board
      * @return
      */
-    public Direction getRandomDirection() {
-        return Direction.values()[rdm.nextInt(4)];
+    @Override
+    public Direction selectDirection(Board board) {
+        Direction d = Direction.values()[rdm.nextInt(4)];
+        if (board.canMove(d)) {
+            return d;
+        } else {
+            return selectDirection(board);
+        }
     }
 
     public AutoRandom() {
@@ -53,11 +60,10 @@ public class AutoRandom implements Auto {
         }
 
         while (limit.shouldContinue(board)) {
-            Direction d = getRandomDirection();
-            if (board.canMove(d)) {
-                board.play(d);
-                playList.add(d);
-            }
+            Direction d = selectDirection(board);
+            board.play(d);
+            playList.add(d);
+
         }
 
     }

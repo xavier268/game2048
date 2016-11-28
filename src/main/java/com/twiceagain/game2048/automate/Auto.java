@@ -36,5 +36,12 @@ public interface Auto {
     
     public void reset();
     
+    /**
+     * Select the best direction to play.
+     * @param board
+     * @return 
+     */
+    public Direction selectDirection(Board board);
+    
     
 }

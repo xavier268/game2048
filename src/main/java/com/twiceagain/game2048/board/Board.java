@@ -44,7 +44,7 @@ public interface Board {
      *
      * @param d
      */
-    public void move(Direction d);
+    public Board move(Direction d);
 
     /**
      * Add a new position, with content=2.

@@ -169,10 +169,11 @@ public class BoardImpl implements Board {
     }
 
     @Override
-    public void move(Direction d) {
+    public Board move(Direction d) {
         for (int i = 0; i < size; i++) {
             move(selectPositions(d, i));
         }
+        return this;
     }
 
     /**
