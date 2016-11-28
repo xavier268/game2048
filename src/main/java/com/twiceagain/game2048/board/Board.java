@@ -162,4 +162,11 @@ public interface Board {
      * equal to the total number of positions in the board.
      */
     public void randomize(int nbOfContent);
+    
+    /**
+     * Make a deep copy of the board.
+     * But the new random generator is different !
+     * @return 
+     */
+    public Board duplicate() ;
 }

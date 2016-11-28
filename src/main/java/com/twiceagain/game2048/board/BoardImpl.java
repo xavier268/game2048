@@ -21,8 +21,9 @@ public class BoardImpl implements Board {
 
     protected int size;
     protected int score = 0;
-    protected Random rdm = new Random(System.currentTimeMillis());
+    protected Random rdm;
     protected final Map<Position, Integer> content = new HashMap();
+    private static long SEED = 0;
 
     /**
      * Construct a size x size board.
@@ -31,6 +32,8 @@ public class BoardImpl implements Board {
      */
     public BoardImpl(int size) {
         this.size = Math.max(3, size);
+        SEED += 10000L;
+        rdm = new Random(SEED + System.currentTimeMillis());
     }
 
     /**
@@ -338,6 +341,14 @@ public class BoardImpl implements Board {
     @Override
     public int getScore() {
         return score;
+    }
+
+    @Override
+    public Board duplicate()  {
+    BoardImpl b = new BoardImpl(size);
+    b.content.putAll(this.content);
+    b.score = score;
+    return b;
     }
 
 }

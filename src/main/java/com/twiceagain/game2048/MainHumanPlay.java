@@ -11,11 +11,11 @@ import com.twiceagain.game2048.board.BoardImpl;
 import java.io.IOException;
 
 /**
- * Main loop to play.
+ * MainHumanPlay loop to play.
  *
  * @author xavier
  */
-public class Main {
+public class MainHumanPlay {
 
     /**
      * @param args the command line arguments
