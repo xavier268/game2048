@@ -13,7 +13,6 @@ import com.twiceagain.game2048.automate.AutoRandom;
 import com.twiceagain.game2048.report.Report;
 import com.twiceagain.game2048.board.Board;
 import com.twiceagain.game2048.board.BoardImpl;
-import com.twiceagain.game2048.board.Direction;
 import com.twiceagain.game2048.report.Stat;
 import java.util.List;
 
@@ -32,14 +31,15 @@ public class MainEvaluateAutomaticMoves {
 
         evalAutoRandom(4, 1000, 100000);        
         evalAutoEvalScore(4, 1000, 100000);
-        evalAutoEvalCustom1(4, 1000, 100000, 10, 0);
-        evalAutoEvalCustom1(4, 1000, 100000, -10, 0);
-        evalAutoEvalCustom1(4, 1000, 100000, 0, -0.1);
-        evalAutoEvalCustom1(4, 1000, 100000, 0, -1.);
-        evalAutoEvalCustom1(4, 1000, 100000, 1, -1.); // << Best overall choice for the moment ...
-        evalAutoEvalCustom1(4, 1000, 100000, 0, -5.);
-        evalAutoEvalCustom1(4, 1000, 100000, 10, -5.);
-        evalAutoEvalCustom1(4, 1000, 100000, 0, -100);
+        evalAutoEvalCustom(4, 1000, 100000, 10, 0,0);
+        evalAutoEvalCustom(4, 1000, 100000, -10, 0,0);
+        evalAutoEvalCustom(4, 1000, 100000, 0, -0.1,0);
+        evalAutoEvalCustom(4, 1000, 100000, 0, -1.,0);
+        evalAutoEvalCustom(4, 1000, 100000, 1, -1.,0); // << Best overall choice for the moment ...
+        evalAutoEvalCustom(4, 1000, 100000, 1, -1,-0.5); 
+        evalAutoEvalCustom(4, 1000, 100000, 0, -5.,0);
+        evalAutoEvalCustom(4, 1000, 100000, 10, -5.,0);
+        evalAutoEvalCustom(4, 1000, 100000, 0, -100,0);
         evalAutoEvalMultilevelScore(4, 10, 100000, 5); // Very disappointing and very slow ...
 
     }
@@ -60,12 +60,12 @@ public class MainEvaluateAutomaticMoves {
         display(rep, new AutoEvalScore(), b, nb, step);
     }
 
-    public static void   evalAutoEvalCustom1(int size, int nb, int step, int weight, double delta) {
+    public static void   evalAutoEvalCustom(int size, int nb, int step, int weight, double delta, double delta2) {
         Report rep = new Report();
         Board b = new BoardImpl(size, SEED);
         System.out.println("\n**********Evaluating a 4x4 board with AutoEvalCutsom1");
-        System.out.printf("\nIterations : %d, display steps : %d, weight: %d, delta %f", nb, step, weight, delta);
-        display(rep, new AutoEvalCustom(weight, delta), b, nb, step);
+        System.out.printf("\nIterations : %d, display steps : %d, weight: %d, delta %f, deta2 %f", nb, step, weight, delta, delta2);
+        display(rep, new AutoEvalCustom(weight, delta, delta2), b, nb, step);
     }
 
     public static void evalAutoEvalMultilevelScore(int size, int nb, int step, int level) {
