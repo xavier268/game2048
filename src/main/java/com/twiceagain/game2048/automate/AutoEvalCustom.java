@@ -29,7 +29,7 @@ public class AutoEvalCustom extends AutoEvalScore {
     protected double eval(Board b) {
         return max(b) * wMax
                 + delta(b) * wDelta
-                //+ wDelta2 * delta2(b)
+                //+ wDelta2 * delta2(b) // Degrades performance with no real benefit ...
                 + super.eval(b);
     }
 
