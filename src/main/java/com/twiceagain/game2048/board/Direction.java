@@ -5,11 +5,13 @@
  */
 package com.twiceagain.game2048.board;
 
+import java.io.Serializable;
+
 /**
  * Direction for a move.
  * @author xavier
  */
-public enum Direction {
+public enum Direction implements Serializable{
     UP, LEFT, RIGHT, DOWN
     
 }

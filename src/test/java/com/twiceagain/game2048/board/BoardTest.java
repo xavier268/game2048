@@ -8,6 +8,15 @@ package com.twiceagain.game2048.board;
 import com.twiceagain.game2048.board.Direction;
 import static com.twiceagain.game2048.board.Direction.UP;
 import com.twiceagain.game2048.board.Position;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.attribute.FileAttribute;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.*;
@@ -152,6 +161,31 @@ public class BoardTest {
             bb.move(UP);
             System.out.println(bb);
         }
+    }
+    
+    @Test
+    public void testSerial() throws IOException {
+        BoardImpl b = new BoardImpl(6, 55L);
+        BoardImpl bb;
+        b.randomize(20);
+        Path f = Files.createTempFile("test", ".boards");
+        try (ObjectOutputStream o = new ObjectOutputStream(new FileOutputStream(f.toFile()))) {
+            b.saveToFile(o);
+        }
+        try (ObjectInputStream i = new ObjectInputStream(new FileInputStream(f.toFile()))) {
+             bb = BoardImpl.loadFromFile(i);
+        }
+        System.out.println("Comparing loaded and saved boards :");
+        System.out.printf("\n%s\n%s",b,bb);
+        assertEquals(b.getSize(), bb.getSize());
+        assertEquals(b.getScore(), bb.getScore());
+        assertEquals(b.content,bb.content);
+        bb.play(UP);b.play(UP);
+        System.out.printf("\n%s\n%s",b,bb);
+        assertEquals(b.content,bb.content);        
+        assertEquals(b.getRandomInt(1000), bb.getRandomInt(1000));
+        
+        
     }
 
 }

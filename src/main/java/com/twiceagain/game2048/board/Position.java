@@ -5,11 +5,13 @@
  */
 package com.twiceagain.game2048.board;
 
+import java.io.Serializable;
+
 /**
  * A position on the Board.
  * @author xavier
  */
-public class Position {
+public class Position implements Serializable{
     
     public int i;
     public int j;

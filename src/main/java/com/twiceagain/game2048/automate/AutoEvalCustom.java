@@ -6,35 +6,51 @@
 package com.twiceagain.game2048.automate;
 
 import com.twiceagain.game2048.board.Board;
+import com.twiceagain.game2048.report.Report;
 
 /**
- * Evaluation will use the score AND the highest value reached.
+ * Evaluation will use the score, the highest value reached(wihgted with
+ * wMax), and sum of the square delta logs (weighted with wDelta).
  *
  * @author xavier
  */
-public class AutoEvalCustom1 extends AutoEvalScore {
+public class AutoEvalCustom extends AutoEvalScore {
 
     int wMax;
     double wDelta;
 
-    public AutoEvalCustom1(int weight, double wDelta) {
-        this.wMax = weight;
+    public AutoEvalCustom(int wMax, double wDelta) {
+        this.wMax = wMax;
         this.wDelta = wDelta;
     }
 
     @Override
     protected double eval(Board b) {
-        Integer max = 0;
+        return max(b) * wMax + delta(b) * wDelta + super.eval(b);
+    }
+    
+    /**
+     * Compute the best outcome in the futur with this board.
+     */
+
+    /**
+     * Compute the max value in the board.
+     *
+     * @param b
+     * @return
+     */
+    protected double max(Board b) {
+        int max = 0;
         for (int i = 0; i < b.getSize(); i++) {
             for (int j = 0; j < b.getSize(); j++) {
                 max = (b.at(i, j) != null && b.at(i, j) > max) ? b.at(i, j) : max;
             }
         }
-        return max * wMax + delta(b) * wDelta + super.eval(b);
+        return max;
     }
 
     /**
-     * Compute the deltas between the log vof the values.
+     * Compute the deltas between the log of the values.
      *
      * @param b
      * @return
@@ -56,5 +72,7 @@ public class AutoEvalCustom1 extends AutoEvalScore {
         double r = Math.log(v1) - Math.log(v2);
         return r * r;
     }
+    
+    
 
 }

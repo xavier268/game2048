@@ -6,11 +6,16 @@
 package com.twiceagain.game2048.board;
 
 import static com.twiceagain.game2048.board.Direction.*;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Implements the board data structure.
@@ -21,10 +26,11 @@ public class BoardImpl implements Board {
 
     protected int size;
     protected int score = 0;
-    protected Random rdm;
+    protected Random rdm = new Random(SEED++ + System.currentTimeMillis());
     protected final Map<Position, Integer> content = new HashMap();
-    private static long SEED = 0;
+    transient private static long SEED = 0;
 
+    
     /**
      * Construct a size x size board.
      *
@@ -32,8 +38,8 @@ public class BoardImpl implements Board {
      */
     public BoardImpl(int size) {
         this.size = Math.max(3, size);
-        SEED += 10000L;
         rdm = new Random(SEED + System.currentTimeMillis());
+        SEED += 1000;
     }
 
     /**
@@ -345,11 +351,48 @@ public class BoardImpl implements Board {
     }
 
     @Override
-    public Board duplicate()  {
-    BoardImpl b = new BoardImpl(size);
-    b.content.putAll(this.content);
-    b.score = score;
-    return b;
+    public Board duplicate() {
+        BoardImpl b = new BoardImpl(size);
+        b.content.putAll(this.content);
+        b.score = score;
+        b.rdm = rdm;
+        return b;
+    }
+
+    /**
+     * Save this to file.
+     * The random state is ALSO saved.
+     * @param out
+     */
+    public void saveToFile(ObjectOutputStream out) {
+        if (out == null) {
+            return;
+        }
+        try {
+            out.writeObject(this);
+        } catch (IOException ex) {
+            Logger.getLogger(BoardImpl.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+    /**
+     * Return a new BoardImpl object read from file.
+     *
+     * @param in
+     * @return
+     */
+    public static BoardImpl loadFromFile(ObjectInputStream in) {
+        if (in == null) {
+            return null;
+        }
+        try {
+            return (BoardImpl) in.readObject();
+
+        } catch (IOException | ClassNotFoundException ex) {
+            Logger.getLogger(BoardImpl.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
     }
 
 }

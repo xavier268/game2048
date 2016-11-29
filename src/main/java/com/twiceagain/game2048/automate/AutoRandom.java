@@ -54,6 +54,7 @@ public class AutoRandom implements Auto {
 
     @Override
     public void auto(Board board, Limit limit) {
+        playList.clear();
         if (limit == null) {
             auto(board);
             return;

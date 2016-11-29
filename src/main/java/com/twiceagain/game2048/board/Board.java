@@ -5,13 +5,17 @@
  */
 package com.twiceagain.game2048.board;
 
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
 /**
  * Object represent a playable board. Player plays using play(direction). Game
  * is over when canMove() becomes false.
  *
  * @author xavier
  */
-public interface Board {
+public interface Board extends Serializable {
 
     /**
      * Get board size.
@@ -43,6 +47,7 @@ public interface Board {
      * Move in the specified direction.
      *
      * @param d
+     * @return 
      */
     public Board move(Direction d);
 
@@ -169,4 +174,7 @@ public interface Board {
      * @return 
      */
     public Board duplicate() ;
+    
+   
+    
 }
