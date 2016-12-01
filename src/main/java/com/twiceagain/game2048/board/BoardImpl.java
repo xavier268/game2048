@@ -6,16 +6,11 @@
 package com.twiceagain.game2048.board;
 
 import static com.twiceagain.game2048.board.Direction.*;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * Implements the board data structure.
@@ -27,10 +22,11 @@ public class BoardImpl implements Board {
     protected int size;
     protected int score = 0;
     protected Random rdm = new Random(SEED++ + System.currentTimeMillis());
-    protected final Map<Position, Integer> content = new HashMap();
-    transient private static long SEED = 0;
+    protected final Map<Position, Integer> content = new HashMap<>();
+    private static long SEED = 0;
+    private Map<Direction, Boolean> canMoveCache = new HashMap<>(4);
+    private static Map<Integer, List<Position>> selectPositionsCache = new HashMap<>();
 
-    
     /**
      * Construct a size x size board.
      *
@@ -113,6 +109,22 @@ public class BoardImpl implements Board {
 
     @Override
     public boolean canMove(Direction direction) {
+        Boolean r = canMoveCache.get(direction);
+        if (r != null) {
+            return r;
+        }
+        r = _canMove(direction);
+        canMoveCache.put(direction, r);
+        return r;
+    }
+
+    /**
+     * Actual computation.
+     *
+     * @param direction
+     * @return
+     */
+    protected boolean _canMove(Direction direction) {
         for (int i = 0; i < size; i++) {
             if (canMove(selectPositions(direction, i))) {
                 return true;
@@ -165,6 +177,7 @@ public class BoardImpl implements Board {
 
     @Override
     public void set(Position p, Integer value) {
+        canMoveCache.clear();
         if (isValid(p)) {
             if (value == null) {
                 unset(p);
@@ -176,6 +189,7 @@ public class BoardImpl implements Board {
 
     @Override
     public Board move(Direction d) {
+        canMoveCache.clear();
         for (int i = 0; i < size; i++) {
             move(selectPositions(d, i));
         }
@@ -238,6 +252,7 @@ public class BoardImpl implements Board {
 
     @Override
     public boolean next() {
+        canMoveCache.clear();
         if (countEmptyPositions() == 0) {
             return false;
         }
@@ -301,13 +316,32 @@ public class BoardImpl implements Board {
     /**
      * Provide a sorted list of positions that correspond to a specific row of
      * column (as specified by rank). Ordering is direction dependent : for UP,
-     * it will return columns, with the topmost cells (smaller i) first.
+     * it will return columns, with the topmost cells (smaller i) first. Uses a
+     * cache to perform lazy computation.
      *
      * @param d
      * @param rank
      * @return
      */
     final List<Position> selectPositions(Direction d, int rank) {
+        Integer i = size + d.ordinal() * size + 4 * rank * size;
+        List<Position> lp = selectPositionsCache.get(i);
+        if (lp != null) {
+            return lp;
+        }
+        lp = _selectPositions(d, rank);
+        selectPositionsCache.put(i, lp);
+        return lp;
+    }
+
+    /**
+     * Actual computation.
+     *
+     * @param d
+     * @param rank
+     * @return
+     */
+    protected final List<Position> _selectPositions(Direction d, int rank) {
         List<Position> r = new ArrayList<>();
         switch (d) {
             case UP:
@@ -357,43 +391,8 @@ public class BoardImpl implements Board {
         b.content.putAll(this.content);
         b.score = score;
         b.rdm = rdm;
+        b.canMoveCache.putAll(canMoveCache);
         return b;
-    }
-
-    /**
-     * Save this to file.
-     * The random state is ALSO saved.
-     * @param out
-     */
-    public void saveToFile(ObjectOutputStream out) {
-        if (out == null) {
-            return;
-        }
-        try {
-            out.writeObject(this);
-        } catch (IOException ex) {
-            Logger.getLogger(BoardImpl.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-    }
-
-    /**
-     * Return a new BoardImpl object read from file.
-     *
-     * @param in
-     * @return
-     */
-    public static BoardImpl loadFromFile(ObjectInputStream in) {
-        if (in == null) {
-            return null;
-        }
-        try {
-            return (BoardImpl) in.readObject();
-
-        } catch (IOException | ClassNotFoundException ex) {
-            Logger.getLogger(BoardImpl.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return null;
     }
 
 }

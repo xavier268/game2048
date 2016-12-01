@@ -89,10 +89,11 @@ public interface Evaluator {
      */
     public static void report(String message, Board b, Strategy s, int count) {
         double t = System.currentTimeMillis();
+        String m = (message + "                    ").substring(0,25);
         List<Integer> stats = getFinalScores(b, s, count);
         t = (System.currentTimeMillis() - t) / stats.size();
         System.out.printf("\n%s\t%s\t\t%.3f millis/test",
-                message,
+                m,
                 stats(stats),
                 t);
     }

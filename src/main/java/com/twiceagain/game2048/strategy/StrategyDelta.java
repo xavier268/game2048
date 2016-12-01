@@ -30,15 +30,19 @@ public class StrategyDelta implements Strategy {
         this.wDelta = wDelta;
     }
 
+    
+
     @Override
     public Direction selectMove(Board b) {
         Direction bd = UP; // best direction
         double bs = 0; // best eval
         for (Direction d : Direction.values()) {
-            double s = eval(b.duplicate().play(d));
-            if (bs < s) {
-                bs = s;
-                bd = d;
+            if (b.canMove(d)) {
+                double s = eval(b.duplicate().play(d));
+                if (bs < s) {
+                    bs = s;
+                    bd = d;
+                }
             }
         }
         return bd;

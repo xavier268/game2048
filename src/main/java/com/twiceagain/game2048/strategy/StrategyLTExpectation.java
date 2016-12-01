@@ -17,18 +17,27 @@ import static com.twiceagain.game2048.board.Direction.UP;
  * @author xavier
  */
 public class StrategyLTExpectation implements Strategy {
+    
+    protected Strategy str;
+    protected int count = 1;
+
+    public StrategyLTExpectation(Strategy longTermStrategy, int count) {
+        this.str = longTermStrategy;
+        this.count=count;
+    }
 
     
-
     @Override
     public Direction selectMove(Board b) {
         Direction bd = UP; // best direction
         double bs = 0; // best eval
         for (Direction d : Direction.values()) {
-            double s = eval(b.duplicate().play(d));
-            if (bs < s) {
-                bs = s;
-                bd = d;
+            if (b.canMove(d)) {
+                double s = eval(b.duplicate().play(d));
+                if (bs < s) {
+                    bs = s;
+                    bd = d;
+                }
             }
         }
         return bd;
@@ -42,7 +51,10 @@ public class StrategyLTExpectation implements Strategy {
      */
     protected double eval(Board b) {
         Integer s = 0;
-        return Evaluator.getFinalScore(b, new StrategyRandom());
+        return Evaluator
+                .getFinalScores(b, str, 4)
+                .stream()
+                .reduce(s,Integer::sum);
     }
 
 }
