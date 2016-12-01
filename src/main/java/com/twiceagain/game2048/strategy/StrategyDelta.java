@@ -3,39 +3,58 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twiceagain.game2048.automate;
+package com.twiceagain.game2048.strategy;
 
 import com.twiceagain.game2048.board.Board;
+import com.twiceagain.game2048.board.Direction;
+import static com.twiceagain.game2048.board.Direction.UP;
 
 /**
- * Evaluation will use the score, the highest value reached(wihgted with wMax),
- * and sum of the square delta logs (weighted with wDelta).
+ * Stategy the minimize deltas between values for the immediate next move. Using
+ * the max value obtained does not significatly affect performance.
  *
  * @author xavier
  */
-public class AutoEvalCustom extends AutoEvalScore {
+public class StrategyDelta implements Strategy {
 
-    int wMax;
-    double wDelta;
-    double wDelta2;
+    protected double wMax = 0, wDelta = 0;
 
-    public AutoEvalCustom(int wMax, double wDelta, double wDelta2) {
+    @Deprecated
+    public StrategyDelta(double wMax, double wDelta) {
         this.wMax = wMax;
         this.wDelta = wDelta;
-        this.wDelta2 = wDelta2;
+    }
+
+    public StrategyDelta(double wDelta) {
+        this.wMax = 0;
+        this.wDelta = wDelta;
     }
 
     @Override
-    protected double eval(Board b) {
-        return max(b) * wMax
-                + delta(b) * wDelta
-                //+ wDelta2 * delta2(b) // Degrades performance with no real benefit ...
-                + super.eval(b);
+    public Direction selectMove(Board b) {
+        Direction bd = UP; // best direction
+        double bs = 0; // best eval
+        for (Direction d : Direction.values()) {
+            double s = eval(b.duplicate().play(d));
+            if (bs < s) {
+                bs = s;
+                bd = d;
+            }
+        }
+        return bd;
     }
 
-    /**
-     * Compute the best outcome in the futur with this board.
-     */
+    protected double eval(Board b) {
+        if (wMax == 0) {
+            return delta(b) * wDelta
+                    + b.getScore();
+        } else {
+            return max(b) * wMax
+                    + delta(b) * wDelta
+                    + b.getScore();
+        }
+    }
+
     /**
      * Compute the max value in the board.
      *
@@ -46,8 +65,11 @@ public class AutoEvalCustom extends AutoEvalScore {
         int max = 0;
         for (int i = 0; i < b.getSize(); i++) {
             for (int j = 0; j < b.getSize(); j++) {
-                max = (b.at(i, j) != null && b.at(i, j) > max) ? b.at(i, j) : max;
+                if (b.at(i, j) != null && b.at(i, j) > max) {
+                    max = b.at(i, j);
+                }
             }
+
         }
         return max;
     }
@@ -63,23 +85,6 @@ public class AutoEvalCustom extends AutoEvalScore {
         for (int i = 1; i < b.getSize(); i++) {
             for (int j = 1; j < b.getSize(); j++) {
                 d += delta(b.at(i, j), b.at(i - 1, j)) + delta(b.at(i, j), b.at(i, j - 1));
-            }
-        }
-        return d;
-    }
-
-    /**
-     * Compute the deltas between the log of neighbouring values.
-     *
-     * @param b
-     * @return
-     */
-    protected double delta2(Board b) {
-        double d = 0;
-        for (int i = 1; i < b.getSize() - 1; i++) {
-            for (int j = 1; j < b.getSize() - 1; j++) {
-                d += delta(b.at(i, j), b.at(i - 1, j)) + delta(b.at(i, j), b.at(i, j - 1));
-                d += delta(b.at(i, j), b.at(i + 1, j)) + delta(b.at(i, j), b.at(i, j + 1));
             }
         }
         return d;

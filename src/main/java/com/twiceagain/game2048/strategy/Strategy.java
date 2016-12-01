@@ -3,14 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twiceagain.game2048.automate;
+package com.twiceagain.game2048.strategy;
 
 import com.twiceagain.game2048.board.Board;
+import com.twiceagain.game2048.board.Direction;
 
 /**
- * Defines an object that controls when automatic play should stop.
+ * A strategy to play the game until the end.
+ * @author xavier
  */
-public interface Limit {
-
-    public boolean shouldContinue(Board board);
+public interface Strategy {
+    
+    public Direction selectMove(Board b);
+    
 }

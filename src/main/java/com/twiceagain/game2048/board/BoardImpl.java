@@ -340,9 +340,10 @@ public class BoardImpl implements Board {
     }
 
     @Override
-    public void play(Direction direction) {
+    public Board play(Direction direction) {
         move(direction);
         next();
+        return this;
     }
 
     @Override

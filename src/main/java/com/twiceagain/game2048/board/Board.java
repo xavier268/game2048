@@ -40,8 +40,9 @@ public interface Board extends Serializable {
      * Play means move + next.
      *
      * @param direction
+     * @return 
      */
-    public void play(Direction direction);
+    public Board play(Direction direction);
 
     /**
      * Move in the specified direction.
