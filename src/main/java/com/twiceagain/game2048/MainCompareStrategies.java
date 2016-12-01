@@ -10,6 +10,7 @@ import com.twiceagain.game2048.board.BoardImpl;
 import com.twiceagain.game2048.strategy.Evaluator;
 import com.twiceagain.game2048.strategy.StrategyDelta;
 import com.twiceagain.game2048.strategy.StrategyGreedy;
+import com.twiceagain.game2048.strategy.StrategyLTExpectation;
 import com.twiceagain.game2048.strategy.StrategyRandom;
 import com.twiceagain.game2048.strategy.StrategyRotate;
 
@@ -21,22 +22,21 @@ public class MainCompareStrategies {
 
     /**
      * Compre the performance of the various strategies.
+     *
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Board b = new BoardImpl(4);
-        int testSize = 1000;
+        Board b = new BoardImpl(4);        
         System.out.printf("\nStrategy%s", Evaluator.statsHeader());
         System.out.printf("\n==========================================================================\n");
 
-        Evaluator.report("Random", b, new StrategyRandom(), testSize);
-        Evaluator.report("Rotate", b, new StrategyRotate(), testSize);
-        Evaluator.report("Greedy", b, new StrategyGreedy(), testSize);
-        Evaluator.report("Delta", b, new StrategyDelta(-1), testSize);
+        Evaluator.report("Random", b, new StrategyRandom(), 1000);
+        Evaluator.report("Rotate", b, new StrategyRotate(), 1000);
+        Evaluator.report("Greedy", b, new StrategyGreedy(), 1000);
+        Evaluator.report("Delta", b, new StrategyDelta(-1), 1000);
+        Evaluator.report("LTExp", b, new StrategyLTExpectation(), 2);
 
         System.out.printf("\n==========================================================================\n");
     }
-
-    
 
 }
