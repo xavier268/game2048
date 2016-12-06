@@ -24,7 +24,7 @@ public class BoardImpl implements Board {
     protected Random rdm = new Random(SEED++ + System.currentTimeMillis());
     protected final Map<Position, Integer> content = new HashMap<>();
     private static long SEED = 0;
-    private Map<Direction, Boolean> canMoveCache = new HashMap<>(4);
+    private final Map<Direction, Boolean> canMoveCache = new HashMap<>(4);
     private static Map<Integer, List<Position>> selectPositionsCache = new HashMap<>();
 
     /**

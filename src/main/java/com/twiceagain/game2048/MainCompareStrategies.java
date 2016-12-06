@@ -21,8 +21,8 @@ import com.twiceagain.game2048.strategy.StrategyRotate;
 public class MainCompareStrategies {
 
     /**
-     * Compare the performance of the various strategies.
-     * Current results. Note that LTExp with Delta is disappointing.
+     * Compare the performance of the various strategies. Current results. Note
+     * that LTExp with Delta is disappointing.
      * <pre>
      * Strategy	nb	min	med	avg	max	sigma
      * ==========================================================================
@@ -48,6 +48,7 @@ public class MainCompareStrategies {
         Evaluator.report("Rotate", b, new StrategyRotate(), 1000);
         Evaluator.report("Greedy", b, new StrategyGreedy(), 1000);
         Evaluator.report("Delta", b, new StrategyDelta(-1), 1000);
+        Evaluator.report("LTExp Random x1", b, new StrategyLTExpectation(new StrategyRandom(), 1), 100);
         Evaluator.report("LTExp Random x2", b, new StrategyLTExpectation(new StrategyRandom(), 2), 30);
         Evaluator.report("LTExp Random x10", b, new StrategyLTExpectation(new StrategyRandom(), 10), 30);
         Evaluator.report("LTExp Rotate x2", b, new StrategyLTExpectation(new StrategyRotate(), 2), 30);
