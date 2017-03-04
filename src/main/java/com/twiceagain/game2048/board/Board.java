@@ -5,8 +5,6 @@
  */
 package com.twiceagain.game2048.board;
 
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 /**

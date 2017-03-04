@@ -6,7 +6,6 @@
 package com.twiceagain.game2048;
 
 import com.twiceagain.game2048.board.Board;
-import static com.twiceagain.game2048.board.Direction.*;
 import com.twiceagain.game2048.board.BoardImpl;
 import com.twiceagain.game2048.strategy.Evaluator;
 import com.twiceagain.game2048.strategy.StrategyHuman;
@@ -27,7 +26,7 @@ public class MainHumanPlay {
         int s = 4;
         try {
             s = Integer.decode(args[0]);
-        } catch (Exception ex) {
+        } catch (NumberFormatException ex) {
         }
         
         Board bb = new BoardImpl(s);

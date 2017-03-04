@@ -43,7 +43,7 @@ public interface Evaluator {
     }
     
     /**
-     * Start form a common Board position, iterate and return the various final scores achieved.
+     * Start from a common Board position, iterate and return the various final scores achieved.
      * @param board
      * @param strategy
      * @param count
