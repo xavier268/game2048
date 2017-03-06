@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twiceagain.game2048.strategy;
+package com.twiceagain.game2048.util;
 
 import com.twiceagain.game2048.board.Board;
+import com.twiceagain.game2048.strategy.interfaces.Strategy;
 import java.util.ArrayList;
 import java.util.List;
 

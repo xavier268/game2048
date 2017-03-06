@@ -8,31 +8,34 @@ package com.twiceagain.game2048;
 import com.twiceagain.game2048.board.Board;
 import com.twiceagain.game2048.board.BoardImpl;
 import com.twiceagain.game2048.util.Evaluator;
-import com.twiceagain.game2048.strategy.implement.StrategyParametric;
+import com.twiceagain.game2048.strategy.implement.StrategyParametric2;
 import com.twiceagain.game2048.util.Serializor;
 import java.io.IOException;
 import com.twiceagain.game2048.strategy.interfaces.TeacheableStrategy;
 
 /**
- * 
+ *
  * @author xavier
  * 
- * This strategy currently converges around 3 000.
+ * This strategy, once educated, seems to top around 2 700 on average ...
  * 
- Strategy                     		nb	min	med	avg	max	sigma
+Creating empty board
+Creating random strategy
+Loaded : 'lastStratParam2'
+Strategy                     		nb	min	med	avg	max	sigma
 ======================================================================================
 
-Parametric               		10000	296	3016	2953	6872	877		0,627 millis/test
-Computed score : 3114.24
-Computed score : 2861.96
-Computed score : 3154.12
-Computed score : 2966.76
-Computed score : 2959.6
-Computed score : 2974.76
-Saved : 'lastStratParam'
-Parametric improved      		10000	340	3064	3006	5816	848		0,578 millis/test
+Parametric2              		10000	288	2888	2746	4712	913		0,908 millis/test
+Computed score : 2746.84
+Computed score : 2649.32
+Computed score : 2942.76
+Computed score : 2578.24
+Saved : 'lastStratParam2'
+Parametric2 improved     		10000	340	2748	2697	4696	888		0,626 millis/test
+======================================================================================
+
  */
-public class MainParametricLearn {
+public class MainParametricLearn2 {
 
     /**
      * @param args the command line arguments
@@ -46,27 +49,27 @@ public class MainParametricLearn {
 
         TeacheableStrategy strat;
         try {
-            strat = Serializor.deserialize("lastStratParam");
+            strat = Serializor.deserialize("lastStratParam2");
         } catch (IOException | ClassNotFoundException ex) {
             System.out.printf("\n%s\n", ex);
-            strat = new StrategyParametric(4);
+            strat = new StrategyParametric2(4);
         }
 
         System.out.printf("\nStrategy                     \t%s", Evaluator.statsHeader());
         System.out.printf("\n======================================================================================\n");
-        Evaluator.report("Parametric", b, strat, 10000);
+        Evaluator.report("Parametric2", b, strat, 10000);
         System.out.printf("\nComputed score : %s", strat.computeAverageFinalScore(100));
-        for (int i = 0; i < 5; i++) {
-            strat = strat.improve(5000, 1); 
+        for (int i = 0; i < 3; i++) {
+            strat = strat.improve(500, 0.3); 
             // start with 100 & 0.8 then fine tune progresiveley up to 10000 & 0.1
             System.out.printf("\nComputed score : %s", strat.computeAverageFinalScore(100));
         }
         try {
-            Serializor.serialize(strat, "lastStratParam");
+            Serializor.serialize(strat, "lastStratParam2");
         } catch (IOException ex) {
             System.out.printf("\n%s\n", ex);
         }
-        Evaluator.report("Parametric improved", b, strat, 10000);
+        Evaluator.report("Parametric2 improved", b, strat, 10000);
         System.out.printf("\n======================================================================================\n");
         System.out.printf("\n%s", strat);
     }

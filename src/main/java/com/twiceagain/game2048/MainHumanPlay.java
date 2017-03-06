@@ -7,8 +7,8 @@ package com.twiceagain.game2048;
 
 import com.twiceagain.game2048.board.Board;
 import com.twiceagain.game2048.board.BoardImpl;
-import com.twiceagain.game2048.strategy.Evaluator;
-import com.twiceagain.game2048.strategy.StrategyHuman;
+import com.twiceagain.game2048.util.Evaluator;
+import com.twiceagain.game2048.strategy.implement.StrategyHuman;
 import java.io.IOException;
 
 /**

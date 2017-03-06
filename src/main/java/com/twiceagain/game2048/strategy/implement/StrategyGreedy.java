@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twiceagain.game2048.strategy;
+package com.twiceagain.game2048.strategy.implement;
 
+import com.twiceagain.game2048.strategy.interfaces.Strategy;
 import com.twiceagain.game2048.board.Board;
 import com.twiceagain.game2048.board.Direction;
 import static com.twiceagain.game2048.board.Direction.UP;

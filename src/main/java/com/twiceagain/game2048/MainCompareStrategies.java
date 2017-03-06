@@ -7,12 +7,16 @@ package com.twiceagain.game2048;
 
 import com.twiceagain.game2048.board.Board;
 import com.twiceagain.game2048.board.BoardImpl;
-import com.twiceagain.game2048.strategy.Evaluator;
-import com.twiceagain.game2048.strategy.StrategyDelta;
-import com.twiceagain.game2048.strategy.StrategyGreedy;
-import com.twiceagain.game2048.strategy.StrategyLTExpectation;
-import com.twiceagain.game2048.strategy.StrategyRandom;
-import com.twiceagain.game2048.strategy.StrategyRotate;
+import com.twiceagain.game2048.util.Evaluator;
+import com.twiceagain.game2048.strategy.implement.StrategyDelta;
+import com.twiceagain.game2048.strategy.implement.StrategyGreedy;
+import com.twiceagain.game2048.strategy.implement.StrategyLTExpectation;
+import com.twiceagain.game2048.strategy.implement.StrategyRandom;
+import com.twiceagain.game2048.strategy.implement.StrategyRotate;
+import com.twiceagain.game2048.util.Serializor;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -48,13 +52,18 @@ public class MainCompareStrategies {
         Evaluator.report("Rotate", b, new StrategyRotate(), 1000);
         Evaluator.report("Greedy", b, new StrategyGreedy(), 1000);
         Evaluator.report("Delta", b, new StrategyDelta(-1), 1000);
-        Evaluator.report("LTExp Random x1", b, new StrategyLTExpectation(new StrategyRandom(), 1), 100);
-        Evaluator.report("LTExp Random x2", b, new StrategyLTExpectation(new StrategyRandom(), 2), 30);
-        Evaluator.report("LTExp Random x10", b, new StrategyLTExpectation(new StrategyRandom(), 10), 30);
-        Evaluator.report("LTExp Rotate x2", b, new StrategyLTExpectation(new StrategyRotate(), 2), 30);
-        Evaluator.report("LTExp Rotate x10", b, new StrategyLTExpectation(new StrategyRotate(), 10), 30);
+        Evaluator.report("LTExp Random x1", b, new StrategyLTExpectation(new StrategyRandom(), 1), 20);
+        //Evaluator.report("LTExp Random x2", b, new StrategyLTExpectation(new StrategyRandom(), 2), 30);
+        //Evaluator.report("LTExp Random x10", b, new StrategyLTExpectation(new StrategyRandom(), 10), 30);
+        //Evaluator.report("LTExp Rotate x2", b, new StrategyLTExpectation(new StrategyRotate(), 2), 30);
+        //Evaluator.report("LTExp Rotate x10", b, new StrategyLTExpectation(new StrategyRotate(), 10), 30);
         // LTExp with Delta is VERY disappointing (slower, less performance)
         // Evaluator.report("LTExpDt", b, new StrategyLTExpectation(new StrategyDelta(-1), 3), 10);
+        try {
+            System.out.printf("\n======================================================================================\n");
+            Evaluator.report("Parametric trained", b, Serializor.deserialize("lastStratParam"), 1000);
+        } catch (IOException | ClassNotFoundException ex) {
+        }
 
         System.out.printf("\n======================================================================================\n");
     }
