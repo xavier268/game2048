@@ -22,7 +22,7 @@ public class MainDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Board b = new BoardImpl(4);
+        Board b = new BoardImpl(4, System.currentTimeMillis());
         Strategy s = new StrategyLTExpectation(new StrategyRandom(), 200);
         
         while(b.canMove()) {
