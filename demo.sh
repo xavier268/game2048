@@ -1,5 +1,5 @@
 #!/bin/bash
-mvn clean install
+mvn clean install > compile.log
 
 java -jar target/game2048* 
 
