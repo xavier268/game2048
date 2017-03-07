@@ -14,6 +14,7 @@ import java.util.Random;
  *
  * @author xavier
  */
+@Deprecated
 public class StrategyParametric2 extends StrategyParametric {
 
     public StrategyParametric2(int size) {

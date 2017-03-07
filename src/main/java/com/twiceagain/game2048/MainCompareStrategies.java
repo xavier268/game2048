@@ -15,8 +15,6 @@ import com.twiceagain.game2048.strategy.implement.StrategyRandom;
 import com.twiceagain.game2048.strategy.implement.StrategyRotate;
 import com.twiceagain.game2048.util.Serializor;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -52,10 +50,11 @@ public class MainCompareStrategies {
         Evaluator.report("Rotate", b, new StrategyRotate(), 1000);
         Evaluator.report("Greedy", b, new StrategyGreedy(), 1000);
         Evaluator.report("Delta", b, new StrategyDelta(-1), 1000);
-        Evaluator.report("LTExp Random x1", b, new StrategyLTExpectation(new StrategyRandom(), 1), 20);
-        //Evaluator.report("LTExp Random x2", b, new StrategyLTExpectation(new StrategyRandom(), 2), 30);
-        //Evaluator.report("LTExp Random x10", b, new StrategyLTExpectation(new StrategyRandom(), 10), 30);
-        //Evaluator.report("LTExp Rotate x2", b, new StrategyLTExpectation(new StrategyRotate(), 2), 30);
+        Evaluator.report("LTExp Random x1", b, new StrategyLTExpectation(new StrategyRandom(), 1), 10);
+        Evaluator.report("LTExp Random x4", b, new StrategyLTExpectation(new StrategyRandom(), 4), 10);
+        Evaluator.report("LTExp Random x10", b, new StrategyLTExpectation(new StrategyRandom(), 10), 10);
+        Evaluator.report("LTExp Random x50", b, new StrategyLTExpectation(new StrategyRandom(), 50), 10);
+        Evaluator.report("LTExp Rotate x4", b, new StrategyLTExpectation(new StrategyRotate(), 4), 10);
         //Evaluator.report("LTExp Rotate x10", b, new StrategyLTExpectation(new StrategyRotate(), 10), 30);
         // LTExp with Delta is VERY disappointing (slower, less performance)
         // Evaluator.report("LTExpDt", b, new StrategyLTExpectation(new StrategyDelta(-1), 3), 10);

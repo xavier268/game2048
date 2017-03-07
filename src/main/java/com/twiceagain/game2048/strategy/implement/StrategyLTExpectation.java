@@ -54,7 +54,7 @@ public class StrategyLTExpectation implements Strategy {
     protected double eval(Board b) {
         Integer s = 0;
         return Evaluator
-                .getFinalScores(b, str, 4)
+                .getFinalScores(b, str, count)
                 .stream()
                 .reduce(s,Integer::sum);
     }
