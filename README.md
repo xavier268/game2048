@@ -1,22 +1,27 @@
 # Play the 2048 game on the console.
 
-Attempt to have the computer beat my personnal "manual" record on a regular basis ...
+The goal was for the computer to play the famous "2048" game until it beats 
+my personnal "manual" record on a regular basis ...
+
+After trying and evaluating various strategies, the best strategy now beats my 
+personnal manual record on a regular basis, at a blazing speed ...
+
+My personnal goal is now achieved ;-)
 
 ## How to use
 
-* compile with : mvn install
-* run with MainHumanPlay class to play with human.
-* run with MainCompareStrategies (default) to compare various stratégies.
+Need to have maven and java installed.
 
-`java -jar game2048-1.0-SNAPSHOT.jar`  (default to 4 x 4 board) or 
-`java -jar game2048-1.0-SNAPSHOT.jar  6` ( use a 6 x 6 board) 
+* on linux, just run demo.sh
+* on windows, compile the java target and run it ...
 
-**Best strategy so far is LTExp using Random with small number of random tries.**
+**Notes**
 
+The various strategies I have tried are still in the source, as well as the tools 
+to evaluate their performance.
+I also tried strategies that are "self learning". Even afetr intensivae and 
+time-consuming learning,  they remain significantly below the currently 
+best strategy, "LTExp with Random"
 
-## Performance
+This "best" strategy is the one implementd in the MainDemo class.
 
-Personal manual record playing on a 4x4 board was around 30 000.
-
-Latest strategies have an average score on 4x4 around 13-15 000 on average, 
-with peak record at 36 000 after 60 games.
