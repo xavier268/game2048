@@ -18,12 +18,14 @@ import org.junit.AfterClass;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
  *
  * @author xavier
  */
+@Ignore
 public class BoardTest {
 
     public BoardTest() {
@@ -48,7 +50,7 @@ public class BoardTest {
     public void tearDown() {
     }
 
-    @Test
+    @Test    
     public void testSetAtUnset() {
         System.out.println("\nTesting Set-At-Unset");
 
