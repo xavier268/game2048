@@ -34,7 +34,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.twiceagain.game2048.MainCompareStrategies</mainClass>
+                            <mainClass>com.twiceagain.game2048.MainDemo</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

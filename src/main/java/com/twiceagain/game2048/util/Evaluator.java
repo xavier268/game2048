@@ -27,70 +27,77 @@ public interface Evaluator {
      */
     public static Board getFinalBoard(Board board, Strategy strategy) {
 
-        while(board.canMove()) {
+        while (board.canMove()) {
             board.play(strategy.selectMove(board));
         }
         return board;
     }
-    
+
     /**
      * Get the final score achieved with the provided starting board.
+     *
      * @param board
      * @param strategy
-     * @return 
+     * @return
      */
     public static int getFinalScore(Board board, Strategy strategy) {
         return getFinalBoard(board, strategy).getScore();
     }
-    
+
     /**
-     * Start from a common Board position, iterate and return the various final scores achieved.
+     * Start from a common Board position, iterate and return the various final
+     * scores achieved.
+     *
      * @param board
      * @param strategy
      * @param count
-     * @return 
+     * @return
      */
     public static List<Integer> getFinalScores(Board board, Strategy strategy, int count) {
         List<Integer> lr = new ArrayList<>();
-        for (int i = 0; i<count; i++) {
+        for (int i = 0; i < count; i++) {
             lr.add(getFinalScore(board.duplicate(), strategy));
         }
         return lr;
     }
-    
+
     public static String statsHeader() {
         return "\tnb\tmin\tmed\tavg\tmax\tsigma";
     }
-    
+
     public static String stats(List<Integer> stats) {
-        double sum , sum2, min, max, median, avg, var,sigma;  
-        int n = stats.size();        
+        double sum, sum2, min, max, median, avg, var, sigma;
+        int n = stats.size();
         stats.sort(Integer::compare);
-        median = stats.get(n/2);
+        median = stats.get(n / 2);
         min = stats.get(0);
-        max = stats.get(n-1);
-        sum = sum2 = 0;
-        for(Integer i : stats) {
+        max = stats.get(n - 1);
+        sum = sum2 = 0.;
+        for (Integer i : stats) {
             sum += i;
-            sum2 += i*i;
         }
-        avg = sum/n;
-        var = (sum2/n - avg*avg);
+        avg = sum / n;
+        for (Integer i : stats) {
+            sum2 += (i - avg) * (i - avg);
+        }
+        var = sum2 / n;
         sigma = Math.sqrt(var);
-        return String.format("\t%d\t%.0f\t%.0f\t%.0f\t%.0f\t%.0f", 
-                n,min, median, avg, max, sigma);
-        
+        return String.format("\t%d\t%.0f\t%.0f\t%.0f\t%.0f\t%.0f",
+                n, min, median, avg, max, sigma);
+
     }
+
     /**
      * Display a report for the experiment.
+     *
      * @param message
      * @param b
      * @param s
-     * @param count 
+     * @param count
      */
     public static void report(String message, Board b, Strategy s, int count) {
         double t = System.currentTimeMillis();
-        String m = (message + "                    ").substring(0,25);
+        String m = (message + "                    ").substring(0, 25);
         List<Integer> stats = getFinalScores(b, s, count);
         t = (System.currentTimeMillis() - t) / stats.size();
         System.out.printf("\n%s\t%s\t\t%.3f millis/test",
@@ -98,7 +105,5 @@ public interface Evaluator {
                 stats(stats),
                 t);
     }
-    
-    
 
 }

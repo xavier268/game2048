@@ -141,3 +141,10531 @@ LTExp Rotate x2          		30	716	12356	10632	16588	4445		469,967 millis/test
 LTExp Rotate x10         		30	1408	12504	11424	16844	4478		491,300 millis/test
 ======================================================================================
 mar. déc. 13 18:14:19 CET 2016
+mar. mars  7 12:13:47 CET 2017
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				
+2 |				2
+3 |				
+
+Score : 0		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			2	
+2 |				2
+3 |				
+
+Score : 0		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				2
+2 |		2		2
+3 |				
+
+Score : 0		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				2
+2 |				4
+3 |				
+
+Score : 4		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |				4
+2 |				
+3 |			2	
+
+Score : 4		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	2
+1 |				4
+2 |				2
+3 |				
+
+Score : 4		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				2
+2 |				4
+3 |	2	2	2	2
+
+Score : 4		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |				4
+3 |	2	2	2	2
+
+Score : 4		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				4
+2 |				4
+3 |	2	2	2	2
+
+Score : 8		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4			2
+2 |	4			
+3 |	4	4		
+
+Score : 16		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	2	2	
+2 |	4			
+3 |	8			
+
+Score : 24		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	4		2
+2 |	4			
+3 |	8			
+
+Score : 28		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4		2
+1 |	8			
+2 |	8	2		
+3 |				
+
+Score : 36		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				
+2 |	2	4		
+3 |	16	2		2
+
+Score : 52		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	2
+1 |	16	4		
+2 |		2		
+3 |				
+
+Score : 52		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |		2		
+2 |	2	4		
+3 |	16	2	2	2
+
+Score : 52		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |	2		2	4
+3 |		16	2	4
+
+Score : 56		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |			4	4
+3 |	2	16	2	4
+
+Score : 60		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			2	2
+2 |				8
+3 |	2	16	2	4
+
+Score : 68		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |				4
+2 |				8
+3 |	2	16	2	4
+
+Score : 72		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	2	2
+1 |				4
+2 |				8
+3 |	2			4
+
+Score : 76		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	
+1 |	4			2
+2 |	8			
+3 |	2	4		
+
+Score : 80		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	
+1 |	4	2		
+2 |	8			
+3 |	2	4		2
+
+Score : 80		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	8	16		
+2 |	8	2		
+3 |	2	4	4	2
+
+Score : 88		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			8	16
+2 |	2		8	2
+3 |		2	8	2
+
+Score : 96		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	8	16		
+2 |	2	8	2	2
+3 |	2	8	2	
+
+Score : 96		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	8	16	2	
+2 |	2	8	4	
+3 |	2	8	2	
+
+Score : 100		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2		2	
+2 |	8	16	4	
+3 |	4	16	2	
+
+Score : 120		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4			
+2 |	8	16	4	2
+3 |	4	16	2	
+
+Score : 124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	4			
+2 |	8	16	4	2
+3 |	4	16	2	
+
+Score : 124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	4			
+2 |	8	16	4	2
+3 |	4	16	2	2
+
+Score : 128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	32	4	4
+1 |	8		2	
+2 |	4			
+3 |			2	
+
+Score : 172		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	32	8	
+1 |	8	2		
+2 |	4		2	
+3 |	2			
+
+Score : 180		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	32	8	
+1 |	4	2	2	
+2 |	2			
+3 |				2
+
+Score : 196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	32	8
+1 |	2		4	4
+2 |				2
+3 |				2
+
+Score : 200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	32	8
+1 |			2	8
+2 |		2		2
+3 |				2
+
+Score : 208		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	32	8
+1 |			2	8
+2 |	2			4
+3 |				2
+
+Score : 212		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				16
+2 |	2		32	4
+3 |	2	16	2	2
+
+Score : 228		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	16	2		
+2 |	2	32	4	
+3 |	2	16	4	
+
+Score : 232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	2		
+2 |	16	32		
+3 |	4	16	8	
+
+Score : 244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				4
+2 |			16	32
+3 |		4	16	8
+
+Score : 248		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |				4
+2 |		2		32
+3 |		4	32	8
+
+Score : 280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				4
+2 |		2	2	32
+3 |		4	32	8
+
+Score : 280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	4
+1 |		4	32	32
+2 |				8
+3 |			2	
+
+Score : 280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	4
+1 |			4	64
+2 |				8
+3 |				2
+
+Score : 348		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2			64
+2 |				8
+3 |	2	2	8	2
+
+Score : 356		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |				64
+2 |				8
+3 |	4	2	8	2
+
+Score : 360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |			2	64
+2 |				8
+3 |	4	2	8	2
+
+Score : 360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	4
+1 |			2	64
+2 |				8
+3 |	4	2	8	2
+
+Score : 360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |				64
+2 |	2	2	4	8
+3 |	4	2	8	2
+
+Score : 364		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |			2	64
+2 |	2		4	8
+3 |	4	4	8	2
+
+Score : 368		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2	64	2	
+2 |	2	4	8	
+3 |	8	8	2	
+
+Score : 376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	2	
+1 |	4	4	8	
+2 |	8	8	2	2
+3 |				
+
+Score : 380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	2	2
+1 |	8	4	8	2
+2 |		8	2	
+3 |				
+
+Score : 388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	4	2
+1 |	8	4	8	2
+2 |	8	2		
+3 |				
+
+Score : 392		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	4	2
+1 |	8	4	8	2
+2 |	8	2	2	
+3 |				
+
+Score : 392		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	4	4
+1 |	8	4	8	2
+2 |		2	2	
+3 |				
+
+Score : 412		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	8	
+1 |	8	4	8	2
+2 |	4			
+3 |	2			
+
+Score : 424		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	16	2
+1 |	8	4		
+2 |	4	2		
+3 |	2			
+
+Score : 440		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	16			
+1 |	8	64		
+2 |	4	4	2	
+3 |	2	2	16	2
+
+Score : 440		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				16
+1 |	2		8	64
+2 |			8	2
+3 |		4	16	2
+
+Score : 452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				16
+1 |	2	2	8	64
+2 |			8	2
+3 |		4	16	2
+
+Score : 452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	16	16
+1 |		4	16	64
+2 |				4
+3 |	2			
+
+Score : 472		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32		
+1 |	4	16	64	
+2 |	4		2	
+3 |	2			
+
+Score : 508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32		
+1 |	4	16	64	2
+2 |	4	2		
+3 |	2			
+
+Score : 508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |	4	32		
+2 |	8	16		
+3 |	2	2	64	2
+
+Score : 516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |	4	32		
+2 |	8	16	2	
+3 |	2	2	64	2
+
+Score : 516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			4	32
+2 |	2	8	16	2
+3 |		4	64	2
+
+Score : 520		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2		4	32
+2 |	2	8	16	2
+3 |		4	64	2
+
+Score : 520		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	4	2
+1 |	2	4	16	32
+2 |			64	4
+3 |				
+
+Score : 528		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			4	2
+2 |	4	8	16	32
+3 |	2	4	64	4
+
+Score : 528		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |			4	2
+2 |	4	8	16	32
+3 |	2	4	64	4
+
+Score : 528		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2		4	4
+2 |	4	8	16	32
+3 |	2	4	64	4
+
+Score : 532		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |	2	8		
+2 |	4	8	16	32
+3 |	2	4	64	4
+
+Score : 540		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	4	2		2
+2 |	4	16	16	32
+3 |	2	4	64	4
+
+Score : 560		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			4	4
+2 |	2	4	32	32
+3 |	2	4	64	4
+
+Score : 596		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				8
+2 |		2	4	64
+3 |	2	4	64	4
+
+Score : 668		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |				8
+2 |		2	4	64
+3 |	2	4	64	4
+
+Score : 668		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	8	2		
+2 |	2	4	64	
+3 |	2	4	64	4
+
+Score : 672		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4			
+2 |	8	2		
+3 |	4	8	128	4
+
+Score : 812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	2		
+2 |	8	2		
+3 |	4	8	128	4
+
+Score : 812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	128	4
+1 |	4	8	2	
+2 |	8			
+3 |	4			
+
+Score : 816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	2		
+2 |	8	4	128	
+3 |	4	8	2	4
+
+Score : 816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	4	2		
+2 |	8	4	128	
+3 |	4	8	2	4
+
+Score : 816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	4	2	2	
+2 |	8	4	128	
+3 |	4	8	2	4
+
+Score : 820		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	4	4		
+2 |	8	4	128	2
+3 |	4	8	2	4
+
+Score : 824		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4		2	
+1 |	8			
+2 |	8	4	128	2
+3 |	4	8	2	4
+
+Score : 832		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	4		2	
+2 |	16	4	128	2
+3 |	4	8	2	4
+
+Score : 848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	4	2		
+2 |	16	4	128	2
+3 |	4	8	2	4
+
+Score : 848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		4
+1 |			4	2
+2 |	16	4	128	2
+3 |	4	8	2	4
+
+Score : 852		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |	2		4	2
+2 |	16	4	128	2
+3 |	4	8	2	4
+
+Score : 852		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	4
+1 |	16	8	4	4
+2 |	4		128	4
+3 |		2	2	
+
+Score : 856		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	4
+1 |	16	8	8	
+2 |	4	128	4	
+3 |	4			2
+
+Score : 868		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2	4	2	
+2 |	16	8	8	4
+3 |	8	128	4	2
+
+Score : 876		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	2	4	2	
+2 |	16	16	4	
+3 |	8	128	4	2
+
+Score : 892		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	2	2
+1 |	16	4	8	
+2 |	8	16		
+3 |		128		2
+
+Score : 904		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	
+1 |	16	4	8	
+2 |	8	16		
+3 |	128	2	2	
+
+Score : 908		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	2	
+1 |	16	16	8	2
+2 |	8	2	2	
+3 |	128			
+
+Score : 916		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	8	2
+1 |		32	8	2
+2 |	2		8	4
+3 |				128
+
+Score : 952		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				4
+2 |	2	4	8	4
+3 |	2	32	16	128
+
+Score : 972		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				2
+2 |		4	8	8
+3 |	4	32	16	128
+
+Score : 984		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |				2
+2 |			4	16
+3 |	4	32	16	128
+
+Score : 1000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		2
+1 |				2
+2 |			4	16
+3 |	4	32	16	128
+
+Score : 1000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2			2
+2 |	4	16		
+3 |	4	32	16	128
+
+Score : 1004		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2		
+1 |	4			
+2 |	4	16		
+3 |	4	32	16	128
+
+Score : 1008		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2	2	
+2 |	8	16		
+3 |	8	32	16	128
+
+Score : 1024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	2	2	128
+1 |		16	16	
+2 |		32		2
+3 |				
+
+Score : 1040		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	4	128	
+1 |	32			
+2 |	32	2		
+3 |	2			
+
+Score : 1076		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	4	128
+1 |				32
+2 |			32	2
+3 |			2	2
+
+Score : 1076		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	4	128
+1 |			32	32
+2 |	2		2	4
+3 |				
+
+Score : 1080		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	4	128
+1 |			32	32
+2 |	2		2	4
+3 |				
+
+Score : 1080		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	128
+1 |			32	32
+2 |		2	2	4
+3 |				
+
+Score : 1084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	128
+1 |	2	2	32	32
+2 |			2	4
+3 |				
+
+Score : 1084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	128
+1 |			4	64
+2 |			2	4
+3 |				2
+
+Score : 1152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	128
+1 |	2		4	64
+2 |			2	4
+3 |				2
+
+Score : 1152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			128
+1 |				64
+2 |	4		8	4
+3 |	2	16	2	2
+
+Score : 1160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	128
+1 |	4	2	2	64
+2 |	2			4
+3 |				2
+
+Score : 1160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	128
+1 |	2	4	4	64
+2 |			2	4
+3 |				2
+
+Score : 1164		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	128
+1 |		2	8	64
+2 |	2		2	4
+3 |				2
+
+Score : 1172		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				128
+1 |				64
+2 |	2	16	16	4
+3 |	4	2	2	2
+
+Score : 1192		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128			
+1 |	64			
+2 |	2	32	4	2
+3 |	4	4	2	
+
+Score : 1228		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128			
+1 |	64			
+2 |	2	32	4	2
+3 |	8	2		2
+
+Score : 1236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	32	4	4
+1 |	64	2		
+2 |	2	2		
+3 |	8			
+
+Score : 1240		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	32	4	4
+1 |	64	4		
+2 |	2	2		
+3 |	8			
+
+Score : 1244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2		
+1 |	64	32		
+2 |	2	4		
+3 |	8	2	4	4
+
+Score : 1244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2	4	4
+1 |	64	32	2	
+2 |	2	4		
+3 |	8	2		
+
+Score : 1244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2	2	
+1 |	64	32		
+2 |	2	4	4	
+3 |	8	2	2	4
+
+Score : 1244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2		
+1 |	64	32	2	
+2 |	2	4	4	2
+3 |	8	2	2	4
+
+Score : 1244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2		
+1 |	64	32	2	
+2 |	2	8	2	
+3 |	8	4	4	2
+
+Score : 1256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2		
+1 |	64	32	2	2
+2 |	2	8	2	
+3 |	8	8	2	
+
+Score : 1264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	2		2
+1 |	64	32	4	
+2 |	2	8	2	
+3 |	16	2		
+
+Score : 1284		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	4		
+1 |	64	32	4	2
+2 |	2	8	2	
+3 |	16	2		
+
+Score : 1288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	128	4	2	
+1 |	64	32	4	2
+2 |	2	8	2	
+3 |	16	2		
+
+Score : 1288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	4	2
+1 |	64	32	4	2
+2 |		2	8	2
+3 |			16	2
+
+Score : 1288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	8	4
+1 |	64	32	8	4
+2 |		2	16	2
+3 |				
+
+Score : 1304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	16	8
+1 |	64	32	16	2
+2 |		2	2	
+3 |				
+
+Score : 1328		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	32	8
+1 |	64	32	2	2
+2 |		2		2
+3 |				
+
+Score : 1360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	32	8
+1 |	2	64	32	4
+2 |				4
+3 |				
+
+Score : 1368		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				
+2 |		128		8
+3 |	4	64	64	8
+
+Score : 1444		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				
+2 |			128	8
+3 |	2	4	128	8
+
+Score : 1572		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			2	
+2 |				2
+3 |	2	4	256	16
+
+Score : 1844		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2			
+2 |	2	2		
+3 |	2	4	256	16
+
+Score : 1844		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	256	16
+1 |	2	4	2	
+2 |				
+3 |				
+
+Score : 1848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				
+2 |	4	2	256	
+3 |	2	4	2	16
+
+Score : 1848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |				
+2 |		4	2	256
+3 |	2	4	2	16
+
+Score : 1848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	4	2
+1 |			2	256
+2 |				16
+3 |				
+
+Score : 1864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	4	2
+1 |	2		2	256
+2 |				16
+3 |				
+
+Score : 1864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				2
+2 |	4		4	256
+3 |	2	8	2	16
+
+Score : 1864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |	4	2	4	256
+3 |	2	8	2	16
+
+Score : 1864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |				2
+2 |	4	2	4	256
+3 |	2	8	2	16
+
+Score : 1864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2			2
+2 |	4	2	4	256
+3 |	2	8	2	16
+
+Score : 1868		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4		2	
+1 |	4			
+2 |	4	2	4	256
+3 |	2	8	2	16
+
+Score : 1872		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2		
+1 |	4	2		
+2 |	4	2	4	256
+3 |	2	8	2	16
+
+Score : 1872		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	4	4	256
+1 |	4	2	2	16
+2 |	2	8	2	
+3 |				
+
+Score : 1884		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	256
+1 |		4	4	16
+2 |		2	8	2
+3 |				
+
+Score : 1896		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	256
+1 |		4	4	16
+2 |	2	2	8	2
+3 |				
+
+Score : 1896		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	256	2
+1 |	8	16		
+2 |	4	8	2	
+3 |				
+
+Score : 1924		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	256	2
+1 |		2	8	16
+2 |		4	8	2
+3 |				
+
+Score : 1924		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	256	2
+1 |	2	8	16	
+2 |	4	8	2	
+3 |		2		
+
+Score : 1924		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |		16	256	
+2 |	4	16	16	
+3 |	4	2	2	2
+
+Score : 1944		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	16	256		
+2 |	4	32		
+3 |	4	4	2	2
+
+Score : 1980		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	256		
+2 |	16	32	2	
+3 |	8	4	2	2
+
+Score : 1988		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2	256		
+2 |	16	32		
+3 |	8	4	4	2
+
+Score : 1992		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2	256		
+2 |	16	32	2	
+3 |	8	8	2	
+
+Score : 2000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	16	32		
+2 |	8	8		
+3 |	2			
+
+Score : 2008		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	16	32		
+2 |	16		2	
+3 |	2			
+
+Score : 2024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	32	32	2	
+2 |	2			
+3 |				2
+
+Score : 2056		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	2
+1 |	32	32	2	
+2 |	2			2
+3 |				
+
+Score : 2056		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	2
+1 |	64	2		2
+2 |	4			
+3 |				
+
+Score : 2124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	4
+1 |	64	2	2	
+2 |	4			
+3 |				
+
+Score : 2128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	8
+1 |		2	64	4
+2 |				4
+3 |				
+
+Score : 2140		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	8
+1 |	2	2	64	8
+2 |				
+3 |				
+
+Score : 2148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	8	
+1 |	4	64	8	2
+2 |				
+3 |				
+
+Score : 2152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	8	
+1 |	4	64	8	2
+2 |		2		
+3 |				
+
+Score : 2152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		256	2	
+2 |		64		
+3 |	8	2	16	2
+
+Score : 2176		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |		256		
+2 |		64	2	
+3 |	8	2	16	2
+
+Score : 2176		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				256
+2 |	2		64	2
+3 |	8	2	16	2
+
+Score : 2176		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	256		2	
+2 |	2	64	2	
+3 |	8	2	16	2
+
+Score : 2176		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	256			
+2 |	2	64	4	2
+3 |	8	2	16	2
+
+Score : 2180		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	4	4
+1 |	256	2	16	2
+2 |	2			
+3 |	8			
+
+Score : 2184		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	
+1 |	256	2	16	2
+2 |	2	2		
+3 |	8			
+
+Score : 2192		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	2
+1 |	256	4	16	
+2 |	2			
+3 |	8			2
+
+Score : 2196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	4
+1 |	256	4	16	
+2 |	2			2
+3 |	8			
+
+Score : 2200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	4
+1 |	256	4	16	
+2 |	4			
+3 |	8		2	
+
+Score : 2204		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	4
+1 |	256	4	16	
+2 |	4	2	2	
+3 |	8			
+
+Score : 2204		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	8	4
+1 |	2	256	4	16
+2 |			4	4
+3 |				8
+
+Score : 2208		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	8	4
+1 |	2	256	8	16
+2 |				4
+3 |				8
+
+Score : 2220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	8	4
+1 |	2	256	8	16
+2 |		2		4
+3 |				8
+
+Score : 2220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	16	4
+1 |	2	256	2	16
+2 |		2		4
+3 |				8
+
+Score : 2236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	16	4
+1 |	2	256	2	16
+2 |	2	4		
+3 |	8		2	
+
+Score : 2236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	16	4
+1 |	4	256	4	16
+2 |	8	4	2	
+3 |				
+
+Score : 2244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	16	4
+1 |	8	256	4	16
+2 |		4	2	2
+3 |				
+
+Score : 2252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	16	4
+1 |	8	256	4	16
+2 |	4	4		
+3 |				2
+
+Score : 2256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	16	4
+1 |	8	256	4	16
+2 |	2			8
+3 |				2
+
+Score : 2264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2		16
+2 |	16	64	16	8
+3 |	2	256	4	2
+
+Score : 2280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |		2		16
+2 |	16	64	16	8
+3 |	2	256	4	2
+
+Score : 2280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4		
+1 |	2	16		2
+2 |	16	64	16	8
+3 |	2	256	4	2
+
+Score : 2280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	16	2
+1 |	16	16	4	8
+2 |	2	64	2	2
+3 |		256		
+
+Score : 2284		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	16	2
+1 |		32	4	8
+2 |	2	2	64	4
+3 |				256
+
+Score : 2328		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		2
+1 |		8	16	8
+2 |		32	4	4
+3 |	2	2	64	256
+
+Score : 2328		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2	8	16	8
+2 |			32	8
+3 |		4	64	256
+
+Score : 2344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		4
+1 |	2	8	16	8
+2 |			32	8
+3 |		4	64	256
+
+Score : 2344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |	2	8	16	8
+2 |			32	8
+3 |	2	4	64	256
+
+Score : 2344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |			16	4
+2 |		8	32	16
+3 |	4	4	64	256
+
+Score : 2364		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |			16	4
+2 |	2	8	32	16
+3 |		8	64	256
+
+Score : 2376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	16	8
+1 |		2	32	16
+2 |			64	256
+3 |				
+
+Score : 2400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	32	8
+1 |		2	32	16
+2 |			64	256
+3 |				
+
+Score : 2432		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	32	8
+1 |		2	32	16
+2 |			64	256
+3 |				
+
+Score : 2436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2		8
+2 |		4	64	16
+3 |	2	2	64	256
+
+Score : 2500		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	128	8
+1 |		4	2	16
+2 |		2		256
+3 |				
+
+Score : 2628		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	128	8
+1 |		4	2	16
+2 |			2	256
+3 |				
+
+Score : 2632		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	128	8
+1 |		4	2	16
+2 |	2		2	256
+3 |				
+
+Score : 2632		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	128	8
+1 |	2		4	16
+2 |				256
+3 |				
+
+Score : 2648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	128	8
+1 |	2		4	16
+2 |				256
+3 |			2	
+
+Score : 2648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	128	8
+1 |	2		4	16
+2 |			2	256
+3 |				2
+
+Score : 2648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	128	8
+1 |	2		4	16
+2 |		2	2	256
+3 |				2
+
+Score : 2648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				8
+1 |	2		128	16
+2 |	4	8	4	256
+3 |	2	2	2	2
+
+Score : 2648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		8
+1 |		2	128	16
+2 |	4	8	4	256
+3 |			4	4
+
+Score : 2656		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8		
+1 |	2	128	16	2
+2 |	4	8	4	256
+3 |	8			
+
+Score : 2664		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	16	2
+1 |	4	128	4	256
+2 |	8	8		
+3 |	2			
+
+Score : 2668		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	16	2
+1 |	4	128	4	256
+2 |	2			16
+3 |				2
+
+Score : 2684		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	8	16	2
+1 |	2	128	4	256
+2 |			2	16
+3 |				2
+
+Score : 2692		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	16	2	
+1 |	2	128	4	256
+2 |	2	16	2	
+3 |	2			
+
+Score : 2708		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	16	2	256
+1 |	4	128	4	
+2 |	2	16	2	
+3 |				2
+
+Score : 2712		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	2	256	
+1 |	4	128	4	
+2 |	2	16	2	2
+3 |	2			
+
+Score : 2744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	2	256	
+1 |	4	128	4	
+2 |	2	16	4	2
+3 |	2			
+
+Score : 2748		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	256
+1 |		4	128	4
+2 |	2	16	4	2
+3 |				2
+
+Score : 2748		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	256
+1 |		4	128	4
+2 |	2	16	4	2
+3 |	2			2
+
+Score : 2748		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	2	256
+1 |	2	4	128	4
+2 |	2	16	4	4
+3 |				
+
+Score : 2756		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	2	256
+1 |	4	4	128	8
+2 |		16	4	
+3 |		2		
+
+Score : 2768		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	2	256
+1 |	2	8	128	8
+2 |			16	4
+3 |				2
+
+Score : 2776		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	2	256
+1 |	2	8	128	8
+2 |	2		16	4
+3 |				2
+
+Score : 2776		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		256
+1 |			2	8
+2 |	4	32	128	4
+3 |	4	8	16	2
+
+Score : 2780		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	256
+1 |			2	8
+2 |	4	32	128	4
+3 |	4	8	16	2
+
+Score : 2780		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				256
+1 |	2	2	4	8
+2 |		32	128	4
+3 |	8	8	16	2
+
+Score : 2792		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256			
+1 |	4	4	8	2
+2 |	32	128	4	
+3 |	16	16	2	
+
+Score : 2812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	2		
+1 |	8	8	2	
+2 |	32	128	4	
+3 |	32	2		
+
+Score : 2852		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	2	2	
+1 |	8	8	4	
+2 |	64	128		
+3 |		2	2	
+
+Score : 2916		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4		
+1 |	16	4		
+2 |	64	128		
+3 |	4		2	
+
+Score : 2940		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4		
+1 |	16	4	2	
+2 |	64	128		
+3 |	4	2		
+
+Score : 2940		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	2		
+1 |	16	8		
+2 |	64	128		
+3 |	4	2	2	
+
+Score : 2948		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	2		
+1 |	16	8		2
+2 |	64	128		
+3 |	4	4		
+
+Score : 2952		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			256	2
+1 |		16	8	2
+2 |			64	128
+3 |	2			8
+
+Score : 2960		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			256	2
+1 |		16	8	2
+2 |	2		64	128
+3 |			2	8
+
+Score : 2960		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			256	2
+1 |		16	8	2
+2 |	2	2	64	128
+3 |			2	8
+
+Score : 2960		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			256	2
+1 |			8	4
+2 |		16	64	128
+3 |	2	2	2	8
+
+Score : 2964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			256	2
+1 |			8	4
+2 |	2	16	64	128
+3 |	2	2	2	8
+
+Score : 2964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	2	2	
+1 |	8	4		
+2 |	2	16	64	128
+3 |	4	2	8	
+
+Score : 2968		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4		
+1 |	8	4		
+2 |	2	16	64	128
+3 |	4	2	8	2
+
+Score : 2972		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	2	2	2	
+3 |	4			
+
+Score : 2980		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	2	2	2	
+3 |	4			2
+
+Score : 2980		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	4	2	2	
+3 |	4	2		
+
+Score : 2984		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	8	4	2	2
+3 |				
+
+Score : 2996		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	8	4	4	
+3 |			2	
+
+Score : 3000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	8	16	8	2
+2 |	8	8		
+3 |	2	2		
+
+Score : 3008		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	16	16	8	2
+2 |	2	8	2	
+3 |		2		
+
+Score : 3024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	16	16	8	2
+2 |	2	8	2	
+3 |		2		2
+
+Score : 3024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	32	8	2	
+2 |	2	8	2	2
+3 |	4			
+
+Score : 3060		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	64	128
+1 |	32	8	2	
+2 |	2	8	4	
+3 |	4		2	
+
+Score : 3064		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	8	2	2
+2 |	2		4	
+3 |	4		2	
+
+Score : 3080		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	8	4	2
+2 |	2	4		
+3 |	4	2		
+
+Score : 3084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	8	4	2
+2 |	2	4		
+3 |	4	2	2	
+
+Score : 3084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	8	4	2
+2 |	2	4		
+3 |	4	4	2	
+
+Score : 3088		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	8	4	2
+2 |	2	8	2	2
+3 |	4			
+
+Score : 3096		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	64	128
+1 |	32	16	4	4
+2 |	2	2	2	
+3 |	4			
+
+Score : 3116		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	32	64	128
+1 |	32	2	4	4
+2 |	2	2	2	
+3 |	4			
+
+Score : 3148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	32	64	128
+1 |	2	32	2	8
+2 |			2	4
+3 |				4
+
+Score : 3160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	64	64	128
+1 |	2		4	8
+2 |		2		8
+3 |				
+
+Score : 3236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	64	64	128
+1 |	2	2	4	16
+2 |				2
+3 |				
+
+Score : 3252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	128	128	
+1 |	4	4	16	2
+2 |	2			
+3 |				
+
+Score : 3384		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	256	2	
+1 |	8	16	2	
+2 |	2			
+3 |				
+
+Score : 3648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	512	2		
+1 |	8	16	2	2
+2 |	2			
+3 |				
+
+Score : 4160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			512	2
+1 |		8	16	4
+2 |			2	2
+3 |				
+
+Score : 4164		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			512	2
+2 |			16	4
+3 |	2	8	2	2
+
+Score : 4164		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			512	2
+2 |			16	4
+3 |		2	8	4
+
+Score : 4168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		2
+1 |			512	2
+2 |			16	4
+3 |		2	8	4
+
+Score : 4168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |			512	2
+2 |			16	4
+3 |		2	8	4
+
+Score : 4172		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	512	4
+1 |	2		16	2
+2 |			8	8
+3 |				
+
+Score : 4180		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	512	4
+1 |		2	16	2
+2 |	2			16
+3 |				
+
+Score : 4200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				4
+2 |		4	512	2
+3 |	2	2	16	16
+
+Score : 4200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	512	4
+1 |		4	16	2
+2 |	2	2		16
+3 |				
+
+Score : 4200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	
+1 |	4	16	2	
+2 |	4	16		
+3 |		2		
+
+Score : 4208		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	
+1 |	4	16	2	2
+2 |	4	16		
+3 |	2			
+
+Score : 4208		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	2
+1 |	4	32	2	
+2 |	2	2		
+3 |				
+
+Score : 4248		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	2
+1 |		4	32	2
+2 |				4
+3 |			2	
+
+Score : 4252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	2
+1 |	2	4	32	2
+2 |				4
+3 |				2
+
+Score : 4252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	4
+1 |	2	4	32	4
+2 |	2			2
+3 |				
+
+Score : 4256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	8
+1 |	4	4	32	2
+2 |				
+3 |	2			
+
+Score : 4268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	512	4	8
+1 |	8	32	2	2
+2 |				
+3 |	2			
+
+Score : 4276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2			
+2 |	16	512	4	8
+3 |	2	32	2	2
+
+Score : 4292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2			2
+2 |	16	512	4	8
+3 |	2	32	4	
+
+Score : 4296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2			
+2 |	16	512	2	2
+3 |	2	32	8	8
+
+Score : 4304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |		16	512	4
+3 |		2	32	16
+
+Score : 4324		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	512	4
+1 |	2	2	32	4
+2 |				16
+3 |				
+
+Score : 4328		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	512	8
+1 |		2	32	16
+2 |				2
+3 |				
+
+Score : 4336		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	512	8
+1 |	2	2	32	16
+2 |				2
+3 |				
+
+Score : 4336		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	512	8
+1 |	2	2	32	16
+2 |				2
+3 |				
+
+Score : 4340		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	512	8
+1 |	4	32	16	
+2 |	2			
+3 |		2		
+
+Score : 4344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	512	8
+1 |	4	32	16	
+2 |	2		2	
+3 |	2			
+
+Score : 4344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |			512	
+2 |	8	16	16	
+3 |	4	32	2	8
+
+Score : 4356		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	512			
+2 |	8	32		
+3 |	4	32	2	8
+
+Score : 4388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	512			
+2 |	8	2		2
+3 |	4	64	2	8
+
+Score : 4452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				512
+2 |		2	8	4
+3 |	4	64	2	8
+
+Score : 4456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			2	512
+2 |		2	8	4
+3 |	4	64	2	8
+
+Score : 4456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |			2	512
+2 |		2	8	4
+3 |	4	64	2	8
+
+Score : 4456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	2
+1 |	4	64	8	512
+2 |	2		2	4
+3 |				8
+
+Score : 4456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4		
+1 |	4	64	8	512
+2 |	4	4		2
+3 |	8			
+
+Score : 4468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	4	8	512
+1 |	4	64		2
+2 |	8	4		2
+3 |				
+
+Score : 4476		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	4	8	512
+1 |	4	64	2	
+2 |	8	4	2	2
+3 |				
+
+Score : 4476		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	8	4		
+2 |	4	64	8	512
+3 |	8	4	4	2
+
+Score : 4480		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |			8	4
+2 |	4	64	8	512
+3 |		8	8	2
+
+Score : 4488		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	2	2
+1 |		8	16	4
+2 |			8	512
+3 |			2	2
+
+Score : 4504		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	2	2
+1 |		8	16	4
+2 |			8	512
+3 |	2		2	2
+
+Score : 4504		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	64	4
+1 |		8	16	4
+2 |			8	512
+3 |			2	4
+
+Score : 4512		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	64	
+1 |			16	8
+2 |		4	8	512
+3 |	2	8	2	4
+
+Score : 4520		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	
+1 |	16	8		
+2 |	4	8	512	
+3 |	2	8	2	4
+
+Score : 4520		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |	16	16	512	
+2 |	4	8	2	
+3 |	2	2		
+
+Score : 4536		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |	16	16	512	2
+2 |	4	8	2	
+3 |	2	2		
+
+Score : 4536		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |		32	512	2
+2 |	2	4	8	2
+3 |				4
+
+Score : 4572		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |	32	512	2	2
+2 |	2	4	8	2
+3 |	4			
+
+Score : 4572		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |	32	512	4	
+2 |	2	4	8	2
+3 |	4	2		
+
+Score : 4576		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	64	2	4
+1 |		32	512	4
+2 |	2	4	8	2
+3 |	2		4	2
+
+Score : 4576		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2	64	512	
+2 |	2	32	8	8
+3 |	4	4	4	4
+
+Score : 4592		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2	2	64	512
+2 |		2	32	16
+3 |			8	8
+
+Score : 4624		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2	4	64	512
+2 |		2	32	16
+3 |				16
+
+Score : 4644		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |		4	64	512
+3 |	2	2	32	32
+
+Score : 4676		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2			
+2 |	4	64	512	
+3 |	4	64		2
+
+Score : 4744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	128	512	2
+1 |	8	2		
+2 |				
+3 |				
+
+Score : 4884		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	128	512	2
+1 |	8	2		2
+2 |				
+3 |				
+
+Score : 4884		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				
+2 |	4	128		
+3 |	8	2	512	4
+
+Score : 4888		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				
+2 |	2		4	128
+3 |	8	2	512	4
+
+Score : 4888		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				2
+2 |	2	2	4	128
+3 |	8	2	512	4
+
+Score : 4888		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |	2		4	128
+3 |	8	4	512	4
+
+Score : 4892		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				4
+2 |	2		4	128
+3 |	8	4	512	4
+
+Score : 4896		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	4	4
+1 |	8		512	128
+2 |		2		4
+3 |				
+
+Score : 4900		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	4	4
+1 |	8	2	512	128
+2 |				4
+3 |				2
+
+Score : 4900		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	4	4
+1 |	8	2	512	128
+2 |			2	4
+3 |				2
+
+Score : 4900		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	8		
+1 |	8	2	512	128
+2 |	2	4		2
+3 |	2			
+
+Score : 4916		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	8		
+2 |	16	2		128
+3 |	4	4	512	2
+
+Score : 4936		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	512	128
+1 |	16	2		2
+2 |	4	4		
+3 |			2	
+
+Score : 4936		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	512	128
+1 |	16	2	2	2
+2 |	4	4	2	
+3 |				
+
+Score : 4936		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	512	128
+1 |		16	2	4
+2 |			8	2
+3 |		2		
+
+Score : 4948		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	512	128
+1 |	16	2	4	
+2 |	8	2	2	
+3 |	2			
+
+Score : 4948		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	16		512	
+2 |	8	8	4	
+3 |	2	4	2	128
+
+Score : 4952		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |			16	512
+2 |			16	4
+3 |	2	4	2	128
+
+Score : 4972		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	32	4
+1 |		2	2	512
+2 |				4
+3 |				128
+
+Score : 5008		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	32	4
+1 |			4	512
+2 |	2			4
+3 |				128
+
+Score : 5020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	32	4
+1 |		2	4	512
+2 |			2	4
+3 |				128
+
+Score : 5020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	32	4
+1 |		2	4	512
+2 |			2	4
+3 |				128
+
+Score : 5020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2	32	512
+2 |		8	4	4
+3 |	2	2	2	128
+
+Score : 5020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	32	4
+1 |	2	8	4	512
+2 |		2	2	4
+3 |				128
+
+Score : 5020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	32	4
+1 |	2	8	4	512
+2 |	2		4	4
+3 |				128
+
+Score : 5028		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	32	4
+1 |		8	8	512
+2 |	2			4
+3 |				128
+
+Score : 5040		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	32	4
+1 |			16	512
+2 |			2	4
+3 |	2			128
+
+Score : 5064		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2		32	512
+2 |			16	4
+3 |	2	8	2	128
+
+Score : 5064		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2	32	512
+2 |	2		16	4
+3 |	2	8	2	128
+
+Score : 5064		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	32	4
+1 |		8	16	512
+2 |			2	4
+3 |		2		128
+
+Score : 5068		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		4
+1 |		2	32	512
+2 |		8	16	4
+3 |	4	2	2	128
+
+Score : 5068		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |		4	32	512
+2 |		8	16	4
+3 |	4	2	2	128
+
+Score : 5072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |		4	32	512
+2 |	2	8	16	4
+3 |	4	2	2	128
+
+Score : 5072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	4
+1 |	4	8	32	512
+2 |	2	2	16	4
+3 |			2	128
+
+Score : 5072		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	4
+1 |	2	4	32	512
+2 |	4	8	16	4
+3 |	2	2	2	128
+
+Score : 5072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	4
+1 |	4	4	32	512
+2 |	4	8	16	4
+3 |	2	2	2	128
+
+Score : 5076		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	4
+1 |	2	4	32	512
+2 |	8	8	16	4
+3 |	2	2	2	128
+
+Score : 5084		Moves: UP RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			4	4
+1 |	2	4	32	512
+2 |	2	16	16	4
+3 |		2	4	128
+
+Score : 5108		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		4	4
+1 |		4	32	512
+2 |		16	16	4
+3 |	4	2	4	128
+
+Score : 5112		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	8
+1 |		4	32	512
+2 |			32	4
+3 |	4	2	4	128
+
+Score : 5152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	8
+1 |	4	2	64	512
+2 |	2		4	4
+3 |				128
+
+Score : 5216		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			8
+1 |	2		2	512
+2 |	4	4	64	4
+3 |	2	2	4	128
+
+Score : 5216		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8		
+1 |	4	512		
+2 |	8	64	4	
+3 |	4	4	128	2
+
+Score : 5232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8		
+1 |	4	512	2	
+2 |	8	64	4	
+3 |	8	128	2	
+
+Score : 5240		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8		
+1 |	4	512	2	2
+2 |	8	64	4	
+3 |	8	128	2	
+
+Score : 5240		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	8
+1 |		4	512	4
+2 |		8	64	4
+3 |	2	8	128	2
+
+Score : 5244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	8
+1 |	2	16	512	8
+2 |			64	2
+3 |			128	
+
+Score : 5268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	8
+1 |	2	16	512	8
+2 |		2	64	2
+3 |				128
+
+Score : 5268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		4	2	16
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |	4	2	16	
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	4	4	16	
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	8	16		
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5300		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			2
+1 |	8	16		
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2		2
+1 |	8	16		
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			4	4
+1 |	2		8	16
+2 |	2	16	512	2
+3 |	4	2	64	128
+
+Score : 5308		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	4	4
+1 |	4	2	8	16
+2 |			512	2
+3 |		2	64	128
+
+Score : 5312		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	4	4
+1 |		4	8	16
+2 |			512	2
+3 |	2		64	128
+
+Score : 5324		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	16	8
+1 |		4	8	16
+2 |	2		512	2
+3 |		2	64	128
+
+Score : 5332		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	8	
+1 |	4	8	16	
+2 |	2	512	2	2
+3 |	2	64	128	
+
+Score : 5332		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	8	2
+1 |	4	8	16	
+2 |	2	512	4	
+3 |	2	64	128	
+
+Score : 5336		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	8	2
+1 |	8	8	16	
+2 |	4	512	4	
+3 |	4	64	128	2
+
+Score : 5340		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	8	2	
+1 |	16	16	2	
+2 |	4	512	4	
+3 |	4	64	128	2
+
+Score : 5356		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	8	4	2
+1 |	8	16	4	
+2 |		512	128	
+3 |		64	2	
+
+Score : 5400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	8	4	2
+1 |	2	8	16	4
+2 |			512	128
+3 |			64	2
+
+Score : 5400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	8	4	2
+1 |	2	8	16	4
+2 |	512	128		2
+3 |	64	2		
+
+Score : 5400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	8	4	2
+1 |	2	8	16	4
+2 |	512	128	2	2
+3 |	64	2		
+
+Score : 5400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	8	4	2
+1 |	2	8	16	4
+2 |	2	512	128	4
+3 |			64	2
+
+Score : 5404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			4	2
+1 |			16	2
+2 |	32	16	128	8
+3 |	4	512	64	2
+
+Score : 5432		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	4	2
+1 |			16	2
+2 |	32	16	128	8
+3 |	4	512	64	2
+
+Score : 5432		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		4	
+1 |		2	16	4
+2 |	32	16	128	8
+3 |	4	512	64	2
+
+Score : 5436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	
+1 |	2	16	4	
+2 |	32	16	128	8
+3 |	4	512	64	2
+
+Score : 5436		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	4	4	4	
+2 |	32	32	128	8
+3 |	4	512	64	2
+
+Score : 5472		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		4
+1 |			4	8
+2 |		64	128	8
+3 |	4	512	64	2
+
+Score : 5548		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	4	4
+1 |	2	64	128	16
+2 |		512	64	2
+3 |				
+
+Score : 5564		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	
+1 |	2	64	128	16
+2 |	512	64	2	
+3 |				2
+
+Score : 5572		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	16
+1 |	2	128	128	2
+2 |	512		2	2
+3 |				
+
+Score : 5700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	16
+1 |	2	256	2	
+2 |	512	4	2	
+3 |				
+
+Score : 5960		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	4	2		
+2 |	2	256	8	
+3 |	512	4	4	16
+
+Score : 5964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |	4	2		
+2 |	2	256	8	2
+3 |	512	4	4	16
+
+Score : 5964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			4	2
+2 |	2	256	8	2
+3 |	2	512	8	16
+
+Score : 5972		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				2
+2 |		256	4	4
+3 |	4	512	16	16
+
+Score : 5996		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |			256	8
+3 |	2	4	512	32
+
+Score : 6036		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |				4
+2 |			256	8
+3 |	2	4	512	32
+
+Score : 6040		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		2		4
+2 |			256	8
+3 |	2	4	512	32
+
+Score : 6040		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2	4		2
+2 |	256	8		
+3 |	2	4	512	32
+
+Score : 6040		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	512	2
+1 |	256	8	2	32
+2 |	2	4		
+3 |				
+
+Score : 6044		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	512	2
+1 |	256	8	2	32
+2 |			2	4
+3 |				
+
+Score : 6052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	512	2
+1 |	256	2	4	32
+2 |				4
+3 |				
+
+Score : 6072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	512	2
+1 |	256	2	4	32
+2 |	2			4
+3 |				
+
+Score : 6072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	512	2
+1 |	256	2	4	32
+2 |	2		2	4
+3 |				
+
+Score : 6072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	2	512	2
+2 |	256	16	4	32
+3 |	2	2	2	4
+
+Score : 6072		Moves: UP RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		4	512	2
+2 |	256	16	4	32
+3 |	2	2	4	4
+
+Score : 6080		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4	512	2
+1 |	2	16	8	32
+2 |	2	2		4
+3 |				
+
+Score : 6088		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4	512	2
+1 |	2	16	8	32
+2 |	2		4	4
+3 |				
+
+Score : 6092		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2		512	2
+2 |	256	4	8	32
+3 |	4	16	4	4
+
+Score : 6096		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	512	2	
+2 |	256	4	8	32
+3 |	4	16	8	2
+
+Score : 6104		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |		2	512	2
+2 |	256	4	8	32
+3 |	4	16	8	2
+
+Score : 6104		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	4	512	2
+1 |	4	4	16	32
+2 |	2	16		2
+3 |				
+
+Score : 6124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	4	16	16	32
+2 |	2	2		2
+3 |				
+
+Score : 6132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	32	32
+2 |			2	4
+3 |				
+
+Score : 6168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |		2	4	64
+2 |			2	4
+3 |				2
+
+Score : 6232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	2	4	64
+2 |			2	4
+3 |				2
+
+Score : 6232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	4	64
+2 |			2	4
+3 |				2
+
+Score : 6236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	2	8	64
+2 |			2	4
+3 |				2
+
+Score : 6244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |			2	4
+3 |				2
+
+Score : 6248		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |	2		2	4
+3 |				2
+
+Score : 6248		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |	4	4	2	
+3 |	2			
+
+Score : 6252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |	8	2	2	
+3 |	2			
+
+Score : 6260		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |	8	4		
+3 |	2	2		
+
+Score : 6264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	8	64
+2 |	8	4	2	
+3 |	4			
+
+Score : 6268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	8	8	64
+2 |	8		2	
+3 |	4			2
+
+Score : 6276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |		2	16	64
+2 |	2		8	2
+3 |			4	2
+
+Score : 6292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	2	16	64
+2 |		2	8	2
+3 |			4	2
+
+Score : 6292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	16	64
+2 |		2	8	4
+3 |			4	
+
+Score : 6300		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	16	64
+2 |	2	2	8	4
+3 |			4	
+
+Score : 6300		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	2	4	16	64
+2 |	2	4	8	4
+3 |				4
+
+Score : 6304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	4	8	16	64
+2 |	2		8	8
+3 |				
+
+Score : 6324		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	4	8	16	64
+2 |	2		2	16
+3 |				
+
+Score : 6340		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	4	8	16	64
+2 |	4	16	2	
+3 |				
+
+Score : 6344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	8	512	2
+1 |	4	8	16	64
+2 |	4	16	2	2
+3 |				
+
+Score : 6344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	512	2
+1 |	8	16	16	64
+2 |		2	2	2
+3 |				
+
+Score : 6368		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	512	2
+1 |		8	32	64
+2 |	2		2	4
+3 |				
+
+Score : 6404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256	16	512	2
+1 |		8	32	64
+2 |	2		4	4
+3 |				
+
+Score : 6408		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2	512	2
+2 |	256	16	32	64
+3 |	2	8	4	4
+
+Score : 6408		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2	512	2	
+2 |	256	16	32	64
+3 |	2	8	8	
+
+Score : 6416		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	2	64
+1 |	256	16	32	2
+2 |	2	8	8	
+3 |				
+
+Score : 6420		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	2	64
+1 |	256	16	32	2
+2 |	2	16	2	
+3 |				
+
+Score : 6436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	2	64
+1 |	256	32	32	2
+2 |	2		2	2
+3 |				
+
+Score : 6468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	2	64
+1 |		256	64	2
+2 |	2		2	4
+3 |				
+
+Score : 6536		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			2	64
+2 |	4	512	64	2
+3 |	2	256	2	4
+
+Score : 6536		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	2	2
+1 |	2	256	64	64
+2 |		2	2	2
+3 |				4
+
+Score : 6536		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	
+1 |	2	256	128	2
+2 |	4	2		
+3 |	4			
+
+Score : 6672		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	
+1 |	2	256	128	2
+2 |	4	2		2
+3 |	4			
+
+Score : 6672		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	2
+1 |	2	256	128	2
+2 |	4	4		
+3 |	4			
+
+Score : 6676		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	4
+1 |	2	256	128	2
+2 |	8	4		
+3 |				
+
+Score : 6688		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	512	4	4
+1 |	2	256	128	2
+2 |	8	4		2
+3 |				
+
+Score : 6688		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	512	8
+1 |	2	256	128	2
+2 |		8	4	2
+3 |				2
+
+Score : 6696		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	8
+1 |	2	256	128	4
+2 |		8	4	2
+3 |				
+
+Score : 6700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	8
+1 |	2	256	128	4
+2 |	8	4	2	
+3 |	2			
+
+Score : 6700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	8
+1 |	2	256	128	4
+2 |		8	4	2
+3 |			2	2
+
+Score : 6700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	512	
+1 |		4	128	8
+2 |		256	4	4
+3 |	4	8	2	4
+
+Score : 6708		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	512	
+1 |	2	4	128	
+2 |		256	4	8
+3 |	4	8	2	8
+
+Score : 6716		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	512
+1 |	2	2	4	128
+2 |		256	4	8
+3 |	4	8	2	8
+
+Score : 6716		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |		2	2	512
+2 |	2	256	8	128
+3 |	4	8	2	16
+
+Score : 6740		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	512
+1 |	4	256	8	128
+2 |	2	8	2	16
+3 |				
+
+Score : 6744		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	512	
+1 |	4	256	8	128
+2 |	2	8	2	16
+3 |		2		
+
+Score : 6748		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			8	512
+1 |	4	256	8	128
+2 |	2	8	2	16
+3 |			2	2
+
+Score : 6756		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			512
+1 |				128
+2 |	4	256	16	16
+3 |	2	8	4	2
+
+Score : 6776		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	512
+1 |				128
+2 |	2	4	256	32
+3 |	2	8	4	2
+
+Score : 6808		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	512
+1 |				128
+2 |	2	4	256	32
+3 |	2	8	4	2
+
+Score : 6808		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	512
+1 |	2	8	256	128
+2 |		2	4	32
+3 |				2
+
+Score : 6812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	512	2
+1 |	2	8	256	128
+2 |	2	4	32	
+3 |	2			
+
+Score : 6820		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |	8	2	512	
+2 |	2	8	256	2
+3 |	4	4	32	128
+
+Score : 6824		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		8	2	512
+2 |	2	8	256	2
+3 |	2	8	32	128
+
+Score : 6832		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |		8	2	512
+2 |	2	8	256	2
+3 |	2	8	32	128
+
+Score : 6832		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		4
+1 |		8	2	512
+2 |	2	8	256	2
+3 |	2	8	32	128
+
+Score : 6836		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |		2	2	512
+2 |		8	256	2
+3 |	4	16	32	128
+
+Score : 6856		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	4
+1 |	4	8	256	512
+2 |	2	16	32	2
+3 |				128
+
+Score : 6856		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	4	4
+1 |	4	8	256	512
+2 |	2	16	32	2
+3 |	2			128
+
+Score : 6860		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	4	8	256	512
+2 |	2	16	32	2
+3 |	2	128		
+
+Score : 6868		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	16	2	2
+2 |	4	16	256	512
+3 |	4	128	32	2
+
+Score : 6888		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |			2	2
+2 |	2	32	256	512
+3 |	8	128	32	2
+
+Score : 6928		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	4			
+2 |	2	32	256	512
+3 |	8	128	32	2
+
+Score : 6932		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	256	512
+1 |	4	32	32	2
+2 |	2	128	2	
+3 |	8			
+
+Score : 6932		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	512
+1 |		4	64	2
+2 |	2	2	128	2
+3 |				8
+
+Score : 7000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	512
+1 |		4	64	2
+2 |	2	4	128	2
+3 |				8
+
+Score : 7004		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	256	512
+1 |	2	4	64	4
+2 |			128	8
+3 |				
+
+Score : 7016		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	256	512
+1 |		4	64	4
+2 |			128	8
+3 |				2
+
+Score : 7020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			512
+1 |			256	4
+2 |		8	64	8
+3 |	4	4	128	2
+
+Score : 7020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			512
+1 |			256	4
+2 |	2	8	64	8
+3 |	4	4	128	2
+
+Score : 7020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	512
+1 |	2		256	4
+2 |	2	8	64	8
+3 |		8	128	2
+
+Score : 7028		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	2	512
+1 |			256	4
+2 |			64	8
+3 |	2		128	2
+
+Score : 7048		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	2	512
+1 |	2	2	256	4
+2 |			64	8
+3 |			128	2
+
+Score : 7048		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	2	512
+1 |	2	2	256	4
+2 |			64	8
+3 |	2		128	2
+
+Score : 7048		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	2	512
+1 |	4	256	4	
+2 |	64	8	2	
+3 |	2	128	2	
+
+Score : 7052		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		16		
+1 |	8	256	2	2
+2 |	64	8	4	
+3 |	2	128	4	512
+
+Score : 7064		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16			
+1 |	8	256	4	
+2 |	64	8	4	2
+3 |	2	128	4	512
+
+Score : 7068		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	256	8	2
+1 |	8	8	4	512
+2 |	64	128	2	
+3 |	2			
+
+Score : 7076		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	256	8	2
+1 |	16	4	512	
+2 |	64	128	2	
+3 |	2	2		
+
+Score : 7092		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	256	8	2
+1 |	64	4	512	
+2 |	2	128	2	
+3 |		2	2	
+
+Score : 7124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	256	8	2
+1 |	64	4	512	2
+2 |	2	128	2	
+3 |	4			
+
+Score : 7128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	256	8	2
+1 |	64	4	512	2
+2 |	2	128	2	2
+3 |	4			
+
+Score : 7128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	256	8	2
+1 |	64	4	512	2
+2 |		2	128	4
+3 |			2	4
+
+Score : 7132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	8	
+1 |		256	512	
+2 |	32	4	128	4
+3 |	64	2	2	8
+
+Score : 7144		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8		
+1 |	256	512		
+2 |	32	4	128	4
+3 |	64	4	8	2
+
+Score : 7148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	128	4
+1 |	256	512	8	2
+2 |	32	8		
+3 |	64		2	
+
+Score : 7156		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	128	4
+1 |	256	512	8	2
+2 |	32	8		2
+3 |	64	2		
+
+Score : 7156		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	128	4
+1 |	256	512	8	4
+2 |	32	8	2	
+3 |	64	2		
+
+Score : 7160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	128	8
+1 |	256	512	8	2
+2 |	32	8	2	
+3 |	64	2		
+
+Score : 7168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	128	
+2 |	32	8	8	8
+3 |	64	2	2	2
+
+Score : 7168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	2
+1 |	256	512	128	
+2 |	32	16	8	
+3 |	64	4	2	
+
+Score : 7188		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	2
+1 |	256	512	128	2
+2 |	32	16	8	
+3 |	64	4	2	
+
+Score : 7188		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	128	
+2 |	32	16	8	2
+3 |	64	4	2	4
+
+Score : 7192		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	2
+1 |	256	512	128	
+2 |	32	16	8	2
+3 |	64	4	2	4
+
+Score : 7192		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	4
+1 |	256	512	128	4
+2 |	32	16	8	2
+3 |	64	4	2	
+
+Score : 7196		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	128	2
+2 |	32	16	8	8
+3 |	64	4	2	2
+
+Score : 7204		Moves: UP RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	128	2
+2 |	32	16	16	2
+3 |	64	4	4	
+
+Score : 7224		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	128	2
+2 |	32	32	2	
+3 |	64	8	2	
+
+Score : 7264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	2	
+2 |	32	32	128	
+3 |	64	8	4	2
+
+Score : 7268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	2	
+1 |	256	512	2	
+2 |	64	128	2	
+3 |	64	8	4	2
+
+Score : 7332		Moves: UP DOWN RIGHT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	4	2
+1 |	256	512	2	2
+2 |	128	128	4	
+3 |		8		
+
+Score : 7464		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	4	2
+1 |		256	512	4
+2 |			256	4
+3 |	2			8
+
+Score : 7724		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	4	2
+1 |	256	512	4	
+2 |	256	4		
+3 |	2	8	2	
+
+Score : 7724		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	2
+1 |	512	512	2	2
+2 |	2	4		
+3 |		8		
+
+Score : 8244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	16	2
+1 |			1024	4
+2 |			2	4
+3 |		2		8
+
+Score : 9288		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	16	2
+1 |	2		1024	8
+2 |			2	8
+3 |				
+
+Score : 9300		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	16	2
+1 |			1024	16
+2 |			2	
+3 |		2		
+
+Score : 9316		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	16	2
+1 |	1024	16	2	
+2 |	2			
+3 |	2			
+
+Score : 9316		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	16	2
+1 |		1024	16	2
+2 |	2			2
+3 |				2
+
+Score : 9316		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |				
+2 |		4	2	4
+3 |	4	1024	32	4
+
+Score : 9360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2		
+2 |		4	2	4
+3 |	4	1024	32	4
+
+Score : 9360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	2	8
+1 |		4	32	
+2 |		1024		2
+3 |				
+
+Score : 9368		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	4	8
+1 |			4	32
+2 |			1024	2
+3 |			2	
+
+Score : 9372		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	8	2	
+1 |	4	32		
+2 |	1024	2		
+3 |	2			
+
+Score : 9380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			16	2
+1 |			4	32
+2 |			1024	2
+3 |		2		2
+
+Score : 9396		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2	16	2
+2 |			4	32
+3 |		2	1024	4
+
+Score : 9400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2	16	2	
+2 |	4	32		
+3 |	2	1024	4	
+
+Score : 9400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2	16	2	2
+2 |	4	32		
+3 |	2	1024	4	
+
+Score : 9400		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	2	16	4	
+2 |	4	32		
+3 |	2	1024	4	
+
+Score : 9404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	2
+1 |	4	16		
+2 |	2	32		
+3 |		1024		
+
+Score : 9416		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	2
+1 |	2	16		
+2 |		32		
+3 |		1024	2	
+
+Score : 9424		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	2
+1 |	2	16	2	2
+2 |		32		
+3 |		1024		
+
+Score : 9424		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	2
+1 |		2	16	4
+2 |			2	32
+3 |				1024
+
+Score : 9428		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			8	4
+2 |	2		16	32
+3 |	8	4	2	1024
+
+Score : 9432		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |			8	4
+2 |		2	16	32
+3 |	8	4	2	1024
+
+Score : 9432		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2	8	4
+2 |		2	16	32
+3 |	8	4	2	1024
+
+Score : 9436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			8	8
+2 |		4	16	32
+3 |	8	4	2	1024
+
+Score : 9448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	16			
+2 |	4	16	32	
+3 |	8	4	2	1024
+
+Score : 9464		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	16		2	
+2 |	4	16	32	2
+3 |	8	4	2	1024
+
+Score : 9464		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |			16	2
+2 |	4	16	32	2
+3 |	8	4	2	1024
+
+Score : 9464		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2	16	2
+2 |	4	16	32	2
+3 |	8	4	2	1024
+
+Score : 9468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |		2	16	2
+2 |	4	16	32	2
+3 |	8	4	2	1024
+
+Score : 9468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4		
+1 |	2	16	2	2
+2 |	4	16	32	2
+3 |	8	4	2	1024
+
+Score : 9468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	4	4	2	
+2 |	4	32	32	4
+3 |	8	4	2	1024
+
+Score : 9508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		4	4	2
+2 |	8	32	32	4
+3 |	8	4	2	1024
+
+Score : 9520		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	8	2		
+2 |	8	64	4	
+3 |	8	4	2	1024
+
+Score : 9592		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	8	2		
+2 |	8	64	4	
+3 |	8	4	2	1024
+
+Score : 9592		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	2	2	2
+2 |	8	64	4	
+3 |	16	4	2	1024
+
+Score : 9608		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	2
+1 |	8	64	4	1024
+2 |	16	4	2	2
+3 |				
+
+Score : 9608		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			4	4
+1 |	8	64	4	1024
+2 |	2	16	4	4
+3 |				
+
+Score : 9620		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	8	4
+1 |	2	16	4	1024
+2 |		2		4
+3 |				
+
+Score : 9628		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	8	4
+1 |	2	16	4	1024
+2 |	2	4		
+3 |		2		
+
+Score : 9628		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	8	4
+1 |	4	16	4	1024
+2 |	2	4		
+3 |		2		
+
+Score : 9632		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	8	4
+1 |	4	16	4	1024
+2 |	2	4	2	
+3 |	2			
+
+Score : 9632		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	64	8	4
+1 |	4	16	4	1024
+2 |	4	4	2	2
+3 |				
+
+Score : 9636		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		64	8	4
+2 |	8	16	4	1024
+3 |	8	4	2	2
+
+Score : 9644		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	64	8	4	2
+2 |	8	16	4	1024
+3 |	8	4	4	
+
+Score : 9648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	2
+1 |	64	16	4	1024
+2 |	16	4	2	
+3 |				
+
+Score : 9672		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	2
+1 |	64	16	4	1024
+2 |	16	4	2	2
+3 |				
+
+Score : 9672		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	16	2
+1 |	64	16	4	1024
+2 |	2	16	4	4
+3 |				
+
+Score : 9692		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	2	
+1 |	64	16	4	1024
+2 |	2	16	8	
+3 |				2
+
+Score : 9700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	16	4	2
+2 |	2		8	2
+3 |				
+
+Score : 9732		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	16	4	4
+2 |	2		8	2
+3 |				
+
+Score : 9736		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	16	8	2
+2 |	2	8	2	
+3 |				
+
+Score : 9744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	16	8	2
+2 |		2	8	2
+3 |			2	
+
+Score : 9744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	16	16	4
+2 |		2	2	2
+3 |				
+
+Score : 9764		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	32	2	1024
+1 |	64	32	4	2
+2 |	4	2		
+3 |				
+
+Score : 9800		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2			
+2 |	64	64	2	1024
+3 |	4	2	4	2
+
+Score : 9864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2			2
+2 |		128	2	1024
+3 |	4	2	4	2
+
+Score : 9992		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	128	2	4
+1 |	4	2	4	1024
+2 |				2
+3 |	2			
+
+Score : 9996		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	2			4
+2 |	4	128	2	1024
+3 |	2	2	4	2
+
+Score : 9996		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	2	4		
+2 |	4	128	2	1024
+3 |	4	4	2	
+
+Score : 10000		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	4	1024
+1 |	8	4	2	
+2 |		128		
+3 |		4		
+
+Score : 10016		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	4	1024
+1 |	8	4	2	
+2 |	128			
+3 |	4		2	
+
+Score : 10016		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	4	1024
+1 |		8	4	2
+2 |			2	128
+3 |			4	2
+
+Score : 10016		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	1024
+1 |	2	8	2	2
+2 |			4	128
+3 |				2
+
+Score : 10024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	1024
+1 |	2	8	2	2
+2 |			4	128
+3 |	2			2
+
+Score : 10024		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	8	1024
+1 |		2	8	4
+2 |			4	128
+3 |	2			4
+
+Score : 10032		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				1024
+1 |	2			4
+2 |	4		16	128
+3 |	2	4	4	4
+
+Score : 10052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				1024
+1 |			2	4
+2 |	2	4	16	128
+3 |		2	4	8
+
+Score : 10060		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024			
+1 |	2	4		
+2 |	2	4	16	128
+3 |	2	4	8	2
+
+Score : 10060		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	16	128
+1 |	4	4	8	2
+2 |	2			2
+3 |				
+
+Score : 10072		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	16	128
+1 |	2	8	8	2
+2 |				4
+3 |				
+
+Score : 10084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	16	128
+1 |	2	2	16	2
+2 |				4
+3 |				
+
+Score : 10100		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	2	2	2	2
+2 |				4
+3 |				
+
+Score : 10132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	4	4		
+2 |	4			
+3 |				2
+
+Score : 10140		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8			
+2 |	4			
+3 |	2		2	
+
+Score : 10148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8	2		
+2 |	4			
+3 |	4			
+
+Score : 10152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8	2		
+2 |	4			
+3 |	4	2		
+
+Score : 10152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8	2		2
+2 |	4			
+3 |	4	2		
+
+Score : 10152		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |			8	4
+2 |				4
+3 |		2	4	2
+
+Score : 10156		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	2	2	8	8
+2 |			4	2
+3 |				
+
+Score : 10164		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	4	16		
+2 |	4	2		
+3 |		2		
+
+Score : 10184		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8	16		
+2 |		4		
+3 |			2	
+
+Score : 10196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	8	16	2	
+2 |		4		2
+3 |				
+
+Score : 10196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	2	8	16	2
+2 |			4	2
+3 |				
+
+Score : 10196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	2	8	16	2
+2 |	2		4	2
+3 |				
+
+Score : 10196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	8	32	128
+1 |	2	8	16	2
+2 |	2	4	2	2
+3 |				
+
+Score : 10196		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	16	32	128
+1 |	4	4	16	4
+2 |	2		2	
+3 |				
+
+Score : 10220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	16	32	128
+1 |	4	4	16	4
+2 |	2	2	2	
+3 |				
+
+Score : 10220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	16	32	128
+1 |	8	16	4	
+2 |	4	2	2	
+3 |				
+
+Score : 10232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	1024		32	
+2 |	8	32	4	
+3 |	4	2	2	128
+
+Score : 10264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	32	2
+1 |	8	2	4	128
+2 |	4	2	2	
+3 |				
+
+Score : 10264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	64	2	
+1 |	8	2	4	128
+2 |	4	4		
+3 |	2			
+
+Score : 10332		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	2		
+1 |	8	64		
+2 |	4	2	2	
+3 |	2	4	4	128
+
+Score : 10332		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			1024	2
+1 |	2		8	64
+2 |			4	4
+3 |		2	8	128
+
+Score : 10344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			1024	2
+1 |	2		8	64
+2 |			4	4
+3 |	2	2	8	128
+
+Score : 10344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		1024	2
+1 |			8	64
+2 |			4	4
+3 |	4	2	8	128
+
+Score : 10348		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	1024	2
+1 |	2		8	64
+2 |				8
+3 |	4	2	8	128
+
+Score : 10356		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	1024	2
+1 |	4	2	16	64
+2 |				8
+3 |				128
+
+Score : 10376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	1024	2
+1 |	4	2	16	64
+2 |	8			2
+3 |	128			
+
+Score : 10376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	1024	2
+1 |	4	2	16	64
+2 |	8			2
+3 |	128	2		
+
+Score : 10376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	1024	2
+1 |	4	4	16	64
+2 |	8	2		2
+3 |	128			
+
+Score : 10380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	1024	2
+1 |	2	8	16	64
+2 |			8	4
+3 |				128
+
+Score : 10392		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	1024	2
+1 |	2	8	16	64
+2 |			8	4
+3 |				128
+
+Score : 10396		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	1024	2
+1 |	2	8	16	64
+2 |			8	4
+3 |			2	128
+
+Score : 10396		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	1024	2
+1 |	2	8	16	64
+2 |			8	4
+3 |			2	128
+
+Score : 10404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			1024	2
+1 |	2		16	64
+2 |			8	4
+3 |	4	16	2	128
+
+Score : 10424		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		1024	2
+1 |			16	64
+2 |	2		8	4
+3 |	4	16	2	128
+
+Score : 10424		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	16	1024	2
+1 |	4	2	16	64
+2 |			8	4
+3 |			2	128
+
+Score : 10428		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |		2	16	64
+2 |			8	4
+3 |		2	2	128
+
+Score : 10436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |		4	16	64
+2 |			8	4
+3 |	2		2	128
+
+Score : 10440		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |	2	4	16	64
+2 |			8	4
+3 |	2		2	128
+
+Score : 10440		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |	2	4	16	64
+2 |	2		8	4
+3 |			4	128
+
+Score : 10444		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |	4	4	16	64
+2 |	2		8	4
+3 |			4	128
+
+Score : 10448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	16	1024	2
+1 |	2	8	16	64
+2 |		2	8	4
+3 |			4	128
+
+Score : 10456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			1024	2
+1 |	2	16	16	64
+2 |	8	8	8	4
+3 |	2	2	4	128
+
+Score : 10456		Moves: UP RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	2		
+1 |	2	32	64	
+2 |	16	8	4	
+3 |	4	4	128	2
+
+Score : 10508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			1024	2
+1 |		2	32	64
+2 |		16	8	4
+3 |	2	8	128	2
+
+Score : 10516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	1024	2
+1 |		16	32	64
+2 |		8	8	4
+3 |	2		128	2
+
+Score : 10516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	2	
+1 |	16	32	64	
+2 |	16	4	2	
+3 |	2	128	2	
+
+Score : 10536		Moves: UP DOWN RIGHT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	2	
+1 |	32	32	64	
+2 |	2	4	4	
+3 |		128	2	
+
+Score : 10572		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	1024	2
+1 |			64	64
+2 |			2	8
+3 |		2	128	2
+
+Score : 10644		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	2	2
+1 |	128			
+2 |	2	8		
+3 |	2	128	2	
+
+Score : 10772		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	1024		
+2 |	128	8		
+3 |	4	128	4	2
+
+Score : 10780		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	4	2
+1 |	4	8	2	
+2 |	128	128		
+3 |	4			
+
+Score : 10780		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	4	2
+1 |	2	4	8	2
+2 |				256
+3 |				4
+
+Score : 11036		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	4	2
+1 |	2	4	8	2
+2 |			2	256
+3 |				4
+
+Score : 11036		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	4	4
+1 |	2	4	8	256
+2 |			2	4
+3 |				
+
+Score : 11044		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	8	
+1 |	2	4	8	256
+2 |	2	4		
+3 |	2			
+
+Score : 11052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	8	
+1 |	2	4	8	256
+2 |	2	4	2	
+3 |	2			
+
+Score : 11052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |	4	8	2	
+2 |	2	2		
+3 |				
+
+Score : 11080		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |		4	8	2
+2 |				4
+3 |			2	
+
+Score : 11084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |		4	8	2
+2 |				4
+3 |	2			2
+
+Score : 11084		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |	4	8	2	
+2 |	4			2
+3 |	4			
+
+Score : 11088		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |	4	8	2	2
+2 |	4	2		
+3 |	4			
+
+Score : 11088		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	16	256
+1 |	4	8	4	2
+2 |	4	2		
+3 |	4			
+
+Score : 11092		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	8	8	4	2
+2 |		2		
+3 |			2	
+
+Score : 11108		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	2	16	4	2
+2 |				2
+3 |				2
+
+Score : 11124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	2	16	4	2
+2 |			2	2
+3 |				2
+
+Score : 11124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	2	16	4	2
+2 |			2	4
+3 |				2
+
+Score : 11128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	2	16	4	2
+2 |	2	4		
+3 |	2		2	
+
+Score : 11128		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	4	16	4	2
+2 |	2	4	2	2
+3 |				
+
+Score : 11132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	4	16	4	2
+2 |		2	4	4
+3 |				2
+
+Score : 11136		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	16	256
+1 |	4	16	8	2
+2 |		2		4
+3 |		2		2
+
+Score : 11144		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		256
+1 |		1024		2
+2 |	8	16	16	4
+3 |	4	4	8	2
+
+Score : 11148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	256		
+1 |	1024	2	2	
+2 |	8	32	4	
+3 |	8	8	2	
+
+Score : 11188		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		256		
+1 |	2	2	2	2
+2 |	1024	32	4	
+3 |	16	8	2	
+
+Score : 11204		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256			
+1 |	4	4		2
+2 |	1024	32	4	
+3 |	16	8	2	
+
+Score : 11212		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	256			
+1 |	8	2	2	
+2 |	1024	32	4	
+3 |	16	8	2	
+
+Score : 11220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	256			
+1 |	8	2	2	
+2 |	1024	32	4	2
+3 |	16	8	2	
+
+Score : 11220		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				256
+1 |			8	4
+2 |	1024	32	4	2
+3 |	2	16	8	2
+
+Score : 11224		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	8	256
+1 |	2	16	4	4
+2 |			8	4
+3 |				2
+
+Score : 11228		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	8	256
+1 |	2	16	8	2
+2 |	8	4		
+3 |	2			
+
+Score : 11236		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	16	256
+1 |	2	16	2	2
+2 |	8	4		
+3 |	2			
+
+Score : 11252		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	16	256
+1 |	2	2	16	4
+2 |			8	4
+3 |				2
+
+Score : 11256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	32	32	256
+1 |	2	2	8	8
+2 |	2			2
+3 |				
+
+Score : 11296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	64	256	
+1 |	4	16		
+2 |	4			
+3 |	2			
+
+Score : 11384		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		1024	64	256
+1 |		2	4	16
+2 |				4
+3 |				2
+
+Score : 11384		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		1024	64	256
+1 |		2	4	16
+2 |				4
+3 |			2	2
+
+Score : 11384		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	256
+1 |		2	4	16
+2 |				4
+3 |				4
+
+Score : 11388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	256
+1 |	2	4	16	2
+2 |	4			
+3 |	4			
+
+Score : 11388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	256
+1 |	2	4	16	2
+2 |	4	2		
+3 |	4			
+
+Score : 11388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	256
+1 |	2	4	16	2
+2 |			4	2
+3 |	2			4
+
+Score : 11388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	4	16	4
+2 |			4	4
+3 |			2	
+
+Score : 11396		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	4	16	4
+2 |	2			8
+3 |				2
+
+Score : 11404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	4	16	4
+2 |	2	8	2	
+3 |	2			
+
+Score : 11404		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	4	4	16	4
+2 |	2	8	2	
+3 |			2	
+
+Score : 11408		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		1024	64	2
+2 |	8	4	16	256
+3 |	2	8	4	4
+
+Score : 11420		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		1024	64	2
+2 |	8	4	16	256
+3 |	2	2	8	8
+
+Score : 11428		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		1024	64	2
+2 |	8	4	16	256
+3 |	2	2	8	8
+
+Score : 11428		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	2
+1 |	8	4	16	256
+2 |	2	2	8	8
+3 |				2
+
+Score : 11428		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	2
+1 |	8	4	16	256
+2 |		2	4	16
+3 |				2
+
+Score : 11448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	1024	64	2
+1 |	8	4	16	256
+2 |	2	2	4	16
+3 |				2
+
+Score : 11448		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		2
+1 |	2	1024	64	256
+2 |	8	4	16	16
+3 |	2	2	4	2
+
+Score : 11448		Moves: UP RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2	1024	64	256
+2 |	8	4	32	2
+3 |	4	4	2	
+
+Score : 11488		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2	1024	64	256
+2 |	8	4	32	2
+3 |	8	2	2	
+
+Score : 11496		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2	1024	64	256
+2 |	8	4	32	2
+3 |	8	4	2	
+
+Score : 11500		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	8	32	2
+2 |	16	2	2	
+3 |				
+
+Score : 11524		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	8	32	2
+2 |		2	16	4
+3 |				
+
+Score : 11528		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	2	8	32	2
+2 |	2	16	4	
+3 |	2			
+
+Score : 11528		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	64	256
+1 |	4	8	32	2
+2 |	2	16	4	2
+3 |				
+
+Score : 11532		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	1024	64	256
+1 |	2	8	32	4
+2 |		16	4	2
+3 |				
+
+Score : 11544		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		1024	64	256
+2 |	8	8	32	4
+3 |	2	16	4	2
+
+Score : 11544		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	1024	64	256	2
+2 |	16	32	4	
+3 |	2	16	4	2
+
+Score : 11560		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	1024	64	256	2
+2 |	2	16	32	4
+3 |	2	16	4	2
+
+Score : 11560		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	64	256	4
+1 |	4	32	32	4
+2 |	2		4	2
+3 |				
+
+Score : 11600		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	64	256	4
+1 |	4	64	4	
+2 |	2	4	2	2
+3 |				
+
+Score : 11664		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	4	4	2
+2 |	2	2	2	
+3 |				
+
+Score : 11792		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	4	4	2
+2 |	2	2	2	2
+3 |				
+
+Score : 11792		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	8	4	2	
+2 |	4	4		2
+3 |				
+
+Score : 11808		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	8	8	2	2
+2 |	4			
+3 |		2		
+
+Score : 11816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	16	4	2	
+2 |	4			
+3 |	2			
+
+Score : 11836		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	2	16	4	2
+2 |				4
+3 |				2
+
+Score : 11836		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	2	16	4	2
+2 |	2			4
+3 |				2
+
+Score : 11836		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	2	16	4	2
+2 |	2	4	2	
+3 |	2			
+
+Score : 11836		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	16	4	2
+2 |	2	4	2	2
+3 |				
+
+Score : 11840		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	16	4	4
+2 |	2	4	2	2
+3 |				
+
+Score : 11844		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	16	8	2
+2 |	2	4	4	
+3 |				
+
+Score : 11856		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	16	8	2
+2 |	2	8		2
+3 |				
+
+Score : 11864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	128	256	4
+1 |	4	16	8	2
+2 |		2	8	2
+3 |			2	
+
+Score : 11864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		128	256	
+2 |	1024	16	16	4
+3 |	4	2	2	4
+
+Score : 11884		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	128	256		
+2 |	1024	32	4	
+3 |	4	4	4	
+
+Score : 11920		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	128	256	2	
+2 |	1024	32		
+3 |	4	4	8	
+
+Score : 11928		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2	128	256	2
+2 |			1024	32
+3 |			8	8
+
+Score : 11940		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2		256	2
+2 |			1024	32
+3 |	2	128	8	8
+
+Score : 11940		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	2	256	2	
+2 |	1024	32	2	
+3 |	2	128	16	
+
+Score : 11956		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	2	32	16	
+2 |	1024	128		
+3 |	2	2		
+
+Score : 11960		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	4
+1 |		2	32	16
+2 |			1024	128
+3 |			2	4
+
+Score : 11964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	256	4
+1 |		2	32	16
+2 |			1024	128
+3 |	2		2	4
+
+Score : 11964		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	2	32	16	2
+2 |	1024	128		
+3 |	4	4		
+
+Score : 11968		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	256	4	
+1 |	2	32	16	2
+2 |	1024	128	2	
+3 |	8			
+
+Score : 11976		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	256	4
+1 |	2	32	16	2
+2 |		1024	128	2
+3 |				8
+
+Score : 11976		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	4	256	4
+2 |		32	16	4
+3 |	4	1024	128	8
+
+Score : 11984		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		4	256	
+2 |	2	32	16	8
+3 |	4	1024	128	8
+
+Score : 11992		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	256	16
+1 |	4	32	16	2
+2 |		1024	128	
+3 |				
+
+Score : 12012		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	4	256	
+2 |		32	16	16
+3 |	8	1024	128	2
+
+Score : 12020		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		2	4	256
+2 |	2		32	32
+3 |	8	1024	128	2
+
+Score : 12052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	256
+1 |	8	1024	32	32
+2 |	2		128	2
+3 |				
+
+Score : 12052		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	4	256
+1 |		8	1024	64
+2 |		2	128	2
+3 |	2			
+
+Score : 12120		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		4	4	256
+2 |		8	1024	64
+3 |	2	2	128	2
+
+Score : 12120		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			8	256
+2 |		8	1024	64
+3 |	2	4	128	2
+
+Score : 12132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			8	256
+2 |	2	8	1024	64
+3 |	2	4	128	2
+
+Score : 12132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |			8	256
+2 |	2	8	1024	64
+3 |	2	4	128	2
+
+Score : 12132		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		2	8	256
+2 |	2	8	1024	64
+3 |	2	4	128	2
+
+Score : 12136		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |		2	8	256
+2 |	2	8	1024	64
+3 |	2	4	128	2
+
+Score : 12136		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	2	4
+1 |	2	8	8	256
+2 |		4	1024	64
+3 |			128	2
+
+Score : 12140		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	4	4
+1 |		2	16	256
+2 |		4	1024	64
+3 |			128	2
+
+Score : 12160		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	8
+1 |		2	16	256
+2 |		4	1024	64
+3 |			128	2
+
+Score : 12168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	4	8
+1 |		2	16	256
+2 |		4	1024	64
+3 |			128	2
+
+Score : 12172		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	8	8
+1 |		2	16	256
+2 |		4	1024	64
+3 |	2		128	2
+
+Score : 12180		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	8	8
+1 |		4	16	256
+2 |			1024	64
+3 |	2		128	2
+
+Score : 12184		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	16
+1 |		4	16	256
+2 |			1024	64
+3 |		2	128	2
+
+Score : 12200		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	4	16
+1 |		4	16	256
+2 |			1024	64
+3 |	2	2	128	2
+
+Score : 12204		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			8	16
+1 |		4	16	256
+2 |			1024	64
+3 |	2	4	128	2
+
+Score : 12216		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	8	16
+1 |			16	256
+2 |			1024	64
+3 |	2		128	2
+
+Score : 12224		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	16	16
+1 |			16	256
+2 |			1024	64
+3 |	2	2	128	2
+
+Score : 12240		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	32
+1 |			16	256
+2 |			1024	64
+3 |	2	4	128	2
+
+Score : 12276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	32
+1 |	2		16	256
+2 |			1024	64
+3 |			128	2
+
+Score : 12276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	32
+1 |			16	256
+2 |	2		1024	64
+3 |			128	2
+
+Score : 12280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	32
+1 |			16	256
+2 |	4		1024	64
+3 |	2	4	128	2
+
+Score : 12280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	32
+1 |	2	2	16	256
+2 |	4		1024	64
+3 |	2	4	128	2
+
+Score : 12280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	32
+1 |		4	16	256
+2 |	2	4	1024	64
+3 |	2	4	128	2
+
+Score : 12284		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	32
+1 |		2	16	256
+2 |		4	1024	64
+3 |	4	8	128	2
+
+Score : 12296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	32
+1 |		2	16	256
+2 |	2	4	1024	64
+3 |	4	8	128	2
+
+Score : 12296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	32
+1 |	4	4	16	256
+2 |		8	1024	64
+3 |		2	128	2
+
+Score : 12296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	4	32
+1 |		8	16	256
+2 |		8	1024	64
+3 |	2	2	128	2
+
+Score : 12308		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	32
+1 |	2	16	16	256
+2 |		2	1024	64
+3 |			128	2
+
+Score : 12324		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		4	4	32
+1 |	2	2	32	256
+2 |		2	1024	64
+3 |			128	2
+
+Score : 12360		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	32		
+1 |	4	32	256	
+2 |	2	1024	64	
+3 |	128	2	2	
+
+Score : 12372		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	8			
+1 |	4	64	256	
+2 |	2	1024	64	2
+3 |	128	2	2	
+
+Score : 12436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				8
+1 |		4	64	256
+2 |	2	1024	64	2
+3 |		2	128	4
+
+Score : 12440		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	128	8
+1 |		1024	128	256
+2 |		2		2
+3 |		2		4
+
+Score : 12568		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	256	8
+1 |	2	1024		256
+2 |		4		2
+3 |				4
+
+Score : 12828		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	256	8
+1 |	2	1024	256	2
+2 |	4	2		
+3 |	4			
+
+Score : 12828		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	256	8
+1 |	2	1024	256	2
+2 |	2		4	2
+3 |				4
+
+Score : 12828		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	512	8
+1 |	2	1024	4	4
+2 |			2	4
+3 |				
+
+Score : 13348		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	512	8
+1 |	2	1024	4	8
+2 |		2	2	
+3 |				
+
+Score : 13356		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		4	512	
+2 |	4	1024	4	
+3 |	2	2	2	16
+
+Score : 13372		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4	512		
+2 |	4	1024	4	
+3 |	4	2	16	2
+
+Score : 13376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |			4	512
+2 |		4	1024	4
+3 |	4	2	16	2
+
+Score : 13376		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |			4	512
+2 |		4	1024	4
+3 |	4	2	16	2
+
+Score : 13380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	4	4
+1 |	4	2	1024	512
+2 |	2		16	4
+3 |				2
+
+Score : 13380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	8
+1 |	4	2	1024	512
+2 |		2	16	4
+3 |				2
+
+Score : 13388		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	8
+1 |			4	512
+2 |	2	2	1024	4
+3 |	4	4	16	2
+
+Score : 13392		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	8
+1 |			4	512
+2 |	2	2	1024	4
+3 |	4	4	16	2
+
+Score : 13392		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8		2
+1 |	4	512		
+2 |	4	1024	4	
+3 |	8	16	2	
+
+Score : 13408		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		8	2	
+1 |	4	512		
+2 |	8	1024	4	
+3 |	8	16	2	2
+
+Score : 13416		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2		2
+1 |	4	512		
+2 |	8	1024	4	
+3 |	8	16	4	
+
+Score : 13420		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	2
+1 |	4	512		
+2 |	16	1024		2
+3 |		16		
+
+Score : 13444		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	4
+1 |	4	512		
+2 |	16	1024		
+3 |		16	2	
+
+Score : 13448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	4
+1 |	4	512		2
+2 |	16	1024		
+3 |	16	2		
+
+Score : 13448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	8	2	8	4
+1 |		4	512	2
+2 |			16	1024
+3 |	2		16	2
+
+Score : 13448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			4
+1 |			8	2
+2 |	8	2	512	1024
+3 |	2	4	32	2
+
+Score : 13480		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4		
+1 |	8	2	2	
+2 |	8	2	512	1024
+3 |	2	4	32	2
+
+Score : 13480		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2	4	2	
+2 |	16	4	512	1024
+3 |	2	4	32	2
+
+Score : 13500		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2		2	2
+2 |	16	4	512	1024
+3 |	2	8	32	2
+
+Score : 13508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		2	2	4
+2 |	16	4	512	1024
+3 |	2	8	32	2
+
+Score : 13512		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	4	4		
+2 |	16	4	512	1024
+3 |	2	8	32	2
+
+Score : 13516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	4		2	
+2 |	16	8	512	1024
+3 |	2	8	32	2
+
+Score : 13524		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	4		4	
+2 |	16	2	512	1024
+3 |	2	16	32	2
+
+Score : 13544		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	8	2		
+2 |	16	2	512	1024
+3 |	2	16	32	2
+
+Score : 13552		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	1024
+1 |	8	16	32	2
+2 |	16	2		
+3 |	2			
+
+Score : 13556		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	1024
+1 |	8	16	32	2
+2 |	16	2		
+3 |	2			2
+
+Score : 13556		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	512	1024
+1 |	8	16	32	2
+2 |	16	2	2	
+3 |	4			
+
+Score : 13560		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	8	4	512	
+2 |	16	16	32	1024
+3 |	4	2	2	2
+
+Score : 13560		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		8	4	512
+2 |		32	32	1024
+3 |	2	4	2	4
+
+Score : 13600		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |		8	4	512
+2 |		2	64	1024
+3 |	2	4	2	4
+
+Score : 13664		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	8	4	4
+1 |		2	64	512
+2 |		4	2	1024
+3 |			2	4
+
+Score : 13664		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |	2	8	4	512
+2 |		2	64	1024
+3 |	2	4	4	4
+
+Score : 13668		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	4	4
+1 |	2	2	64	512
+2 |		4	4	1024
+3 |				4
+
+Score : 13672		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	8	8	
+1 |	4	64	512	
+2 |	8	1024	2	
+3 |	4			
+
+Score : 13692		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	8	8	8	
+2 |	8	64	512	2
+3 |	4	1024	2	
+
+Score : 13700		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |		8	8	
+2 |	16	64	512	2
+3 |	4	1024	2	2
+
+Score : 13716		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	8	8	4
+1 |	4	64	512	2
+2 |		1024	2	
+3 |				
+
+Score : 13720		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	16	4	2
+1 |	4	64	512	2
+2 |	1024	2		
+3 |				
+
+Score : 13736		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	32	4	2	
+1 |	4	64	512	2
+2 |	1024	2		2
+3 |				
+
+Score : 13768		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |	32	4		
+2 |	4	64	2	
+3 |	1024	2	512	4
+
+Score : 13772		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	32	4		
+2 |	4	64	2	
+3 |	1024	2	512	4
+
+Score : 13772		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	32	4		
+2 |	4	64	2	2
+3 |	1024	2	512	4
+
+Score : 13772		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |			32	4
+2 |	2	4	64	4
+3 |	1024	2	512	4
+
+Score : 13780		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	32	8
+1 |	1024	2	64	8
+2 |	2		512	
+3 |				
+
+Score : 13796		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2		32	
+2 |	1024	4	64	2
+3 |	2	2	512	16
+
+Score : 13812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	2		32	
+2 |	1024	4	64	2
+3 |	2	2	512	16
+
+Score : 13812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	2
+1 |	2		32	
+2 |	1024	4	64	2
+3 |	2	2	512	16
+
+Score : 13812		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	4
+1 |	1024	2	32	16
+2 |	2		64	2
+3 |			512	
+
+Score : 13816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	2	4
+1 |	1024	2	32	16
+2 |		2	64	2
+3 |			2	512
+
+Score : 13816		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	4
+1 |			32	16
+2 |	2	4	64	2
+3 |	1024	4	2	512
+
+Score : 13820		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	
+1 |	32	16		
+2 |	2	4	64	2
+3 |	1024	4	2	512
+
+Score : 13824		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	2
+1 |	32	16	64	512
+2 |	2	8	2	
+3 |	1024		2	
+
+Score : 13832		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	4	2	2
+1 |	32	16	64	512
+2 |	2	8	4	2
+3 |	1024			
+
+Score : 13836		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		8	4
+1 |	32	16	64	512
+2 |	2	8	4	2
+3 |				1024
+
+Score : 13848		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	4
+1 |	32	8	64	512
+2 |	2	2	4	2
+3 |				1024
+
+Score : 13848		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	4
+1 |	32	8	64	512
+2 |		4	4	2
+3 |	2			1024
+
+Score : 13852		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	4
+1 |	32	8	64	512
+2 |	8	2	2	
+3 |	2	1024		
+
+Score : 13860		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	4
+1 |	32	8	64	512
+2 |	8	4		
+3 |	2	1024	2	
+
+Score : 13864		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	8	4
+1 |	32	8	64	512
+2 |	8	4	2	2
+3 |	2	1024		
+
+Score : 13864		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16		2
+1 |	32	8	8	4
+2 |	8	4	64	512
+3 |	2	1024	2	2
+
+Score : 13864		Moves: UP RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	16	2	
+1 |	32	16	4	2
+2 |	8	4	64	512
+3 |	2	1024	4	
+
+Score : 13884		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	2
+1 |	32	32	4	
+2 |	8	4	64	2
+3 |	2	1024	4	512
+
+Score : 13916		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	4
+1 |			64	4
+2 |	8	4	64	2
+3 |	2	1024	4	512
+
+Score : 13984		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	2	2	8
+2 |	8	4	128	2
+3 |	2	1024	4	512
+
+Score : 14120		Moves: UP RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		2	4	8
+2 |	8	4	128	2
+3 |	2	1024	4	512
+
+Score : 14124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2		2	
+1 |	2	4	8	
+2 |	8	4	128	2
+3 |	2	1024	4	512
+
+Score : 14124		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	
+1 |	4		8	
+2 |	8	8	128	2
+3 |	2	1024	4	512
+
+Score : 14136		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4		2	
+1 |	4	8		
+2 |	16	128	2	
+3 |	2	1024	4	512
+
+Score : 14156		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	8	8		
+2 |	16	128	4	
+3 |	2	1024	4	512
+
+Score : 14168		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	16			
+2 |	16	128	4	
+3 |	2	1024	4	512
+
+Score : 14184		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	8	512
+1 |	32	128	2	
+2 |	2	1024		
+3 |				
+
+Score : 14224		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2	2	2	
+2 |	32	128	8	
+3 |	2	1024	2	512
+
+Score : 14224		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			2	4
+2 |		32	128	8
+3 |	2	1024	2	512
+
+Score : 14228		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |			2	4
+2 |		32	128	8
+3 |	2	1024	2	512
+
+Score : 14228		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	4
+1 |			2	4
+2 |		32	128	8
+3 |	2	1024	2	512
+
+Score : 14232		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |			4	8
+2 |		32	128	8
+3 |	2	1024	2	512
+
+Score : 14244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	4	16
+1 |	2	1024	128	512
+2 |			2	
+3 |				
+
+Score : 14264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	32	4	16
+1 |	2	1024	128	512
+2 |	2			2
+3 |				
+
+Score : 14264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |				16
+2 |	4	32	4	512
+3 |	4	1024	128	2
+
+Score : 14268		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			2	16
+2 |	2	32	4	512
+3 |	8	1024	128	2
+
+Score : 14276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	2	16		
+2 |	2	32	4	512
+3 |	8	1024	128	2
+
+Score : 14276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		2
+1 |			2	16
+2 |	2	32	4	512
+3 |	8	1024	128	2
+
+Score : 14276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2		
+1 |	2	16		
+2 |	2	32	4	512
+3 |	8	1024	128	2
+
+Score : 14280		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	2	
+1 |	4	16		
+2 |	4	32	4	512
+3 |	8	1024	128	2
+
+Score : 14284		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		2		
+1 |		16	2	2
+2 |	8	32	4	512
+3 |	8	1024	128	2
+
+Score : 14292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	2	2	2
+1 |	2	16	4	512
+2 |		32	128	2
+3 |		1024		
+
+Score : 14308		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		16	2	4
+1 |	2	16	4	512
+2 |		32	128	2
+3 |	2			1024
+
+Score : 14312		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |			2	512
+2 |	2	32	4	2
+3 |	4	32	128	1024
+
+Score : 14348		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				4
+1 |			2	512
+2 |	2	2	4	2
+3 |	4	64	128	1024
+
+Score : 14412		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	2	4
+1 |	4	64	4	512
+2 |		2	128	2
+3 |				1024
+
+Score : 14412		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2	4	4
+1 |	4	64	4	512
+2 |		2	128	2
+3 |				1024
+
+Score : 14416		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			4	8
+1 |	4	64	4	512
+2 |	2	2	128	2
+3 |				1024
+
+Score : 14428		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	8	8
+1 |	2	2	128	512
+2 |			2	2
+3 |				1024
+
+Score : 14436		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	64	16	
+1 |	4	128	512	
+2 |	4			
+3 |	1024	2		
+
+Score : 14460		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	4	64		
+2 |	8	128	16	2
+3 |	1024	2	512	
+
+Score : 14468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |	4	64		
+2 |	8	128	16	
+3 |	1024	2	512	2
+
+Score : 14468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			2
+1 |	4	64		
+2 |	8	128	16	
+3 |	1024	2	512	2
+
+Score : 14468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	4			
+1 |	4	64	2	
+2 |	8	128	16	
+3 |	1024	2	512	2
+
+Score : 14472		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	8	64	2	
+2 |	8	128	16	2
+3 |	1024	2	512	2
+
+Score : 14480		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	
+2 |		2	512	
+3 |			2	
+
+Score : 14500		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	
+2 |		2	512	
+3 |		2	2	
+
+Score : 14500		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |		1024	128	16
+2 |			2	512
+3 |		2		4
+
+Score : 14504		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	
+2 |	2	512		
+3 |	2	4	2	
+
+Score : 14504		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	
+2 |	4	512	2	
+3 |	2	4		
+
+Score : 14508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	2
+2 |	4	512	2	
+3 |	2	4		
+
+Score : 14508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	2
+2 |	2	4	512	2
+3 |			2	4
+
+Score : 14508		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	4
+2 |	2	4	512	4
+3 |	2		2	
+
+Score : 14512		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	4
+1 |	1024	128	16	4
+2 |	2	4	512	4
+3 |			2	4
+
+Score : 14516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	8
+1 |	1024	128	16	8
+2 |	2	4	512	2
+3 |			2	
+
+Score : 14532		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	16
+1 |	1024	128	16	2
+2 |	2	4	512	2
+3 |			2	
+
+Score : 14548		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	16	64	2	16
+1 |	1024	128	16	2
+2 |	2	4	512	2
+3 |	2	2		
+
+Score : 14548		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |		64	2	
+1 |	16	128	2	
+2 |	1024	4	16	16
+3 |	4	2	512	4
+
+Score : 14556		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	2		
+1 |	16	128	2	
+2 |	1024	4	32	2
+3 |	4	2	512	4
+
+Score : 14588		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	2	2	
+1 |	16	128	2	
+2 |	1024	4	32	2
+3 |	4	2	512	4
+
+Score : 14588		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	4	2	
+1 |	16	128	2	
+2 |	1024	4	32	2
+3 |	4	2	512	4
+
+Score : 14592		Moves: UP DOWN RIGHT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	4		
+1 |	16	128	4	2
+2 |	1024	4	32	2
+3 |	4	2	512	4
+
+Score : 14596		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	4	4	4
+1 |	16	128	32	4
+2 |	1024	4	512	2
+3 |	4	2		
+
+Score : 14600		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	4	4	8
+1 |	16	128	32	2
+2 |	1024	4	512	2
+3 |	4	2		
+
+Score : 14608		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	8	8	
+1 |	16	128	32	2
+2 |	1024	4	512	2
+3 |	4	2		2
+
+Score : 14616		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	16		
+1 |	16	128	32	2
+2 |	1024	4	512	2
+3 |	4	4	2	
+
+Score : 14636		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	64			2
+1 |	16	16	32	
+2 |	1024	128	512	
+3 |	4	8	2	4
+
+Score : 14648		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	2		
+1 |	32	32		
+2 |	1024	128	512	2
+3 |	4	8	2	4
+
+Score : 14680		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	64	2		
+1 |	64	2		
+2 |	1024	128	512	2
+3 |	4	8	2	4
+
+Score : 14744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	64	2
+1 |			64	2
+2 |	1024	128	512	2
+3 |	4	8	2	4
+
+Score : 14744		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |	2			
+1 |		2	128	2
+2 |	1024	128	512	4
+3 |	4	8	2	4
+
+Score : 14876		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	2		
+1 |	2	128	2	
+2 |	1024	128	512	4
+3 |	4	8	2	4
+
+Score : 14876		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	2	2	8
+1 |	1024	256	512	2
+2 |	4	8	2	
+3 |				
+
+Score : 15144		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	2	4	4	8
+1 |	1024	256	512	2
+2 |		4	8	2
+3 |				
+
+Score : 15148		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |		2	8	8
+1 |	1024	256	512	2
+2 |		4	8	2
+3 |				2
+
+Score : 15156		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	16
+1 |	1024	256	512	2
+2 |		4	8	2
+3 |	2			2
+
+Score : 15172		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	16
+1 |	1024	256	512	2
+2 |	2	4	8	2
+3 |				4
+
+Score : 15176		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |			2	
+1 |			2	16
+2 |	1024	256	512	4
+3 |	2	4	8	4
+
+Score : 15180		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |	2		4	
+2 |	1024	256	512	16
+3 |	2	4	8	8
+
+Score : 15192		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				
+1 |			2	4
+2 |	1024	256	512	16
+3 |	2	2	4	16
+
+Score : 15208		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |			2	
+2 |	1024	256	512	4
+3 |	2	2	4	32
+
+Score : 15240		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |				2
+2 |	1024	256	512	4
+3 |	2	4	4	32
+
+Score : 15244		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	2	4	4	4
+2 |	2			32
+3 |				
+
+Score : 15248		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	2	2	4	8
+2 |			2	32
+3 |				
+
+Score : 15256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	2	2	4	8
+2 |			2	32
+3 |			2	
+
+Score : 15256		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	4	4	8	
+2 |	2	32	2	
+3 |	2			
+
+Score : 15260		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	4	4	8	2
+2 |	4	32	2	
+3 |				
+
+Score : 15264		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	8	8	2	
+2 |	4	32	2	
+3 |				2
+
+Score : 15272		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	8	8	4	2
+2 |	4	32	2	
+3 |				
+
+Score : 15276		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	16	4	2	
+2 |	4	32	2	2
+3 |				
+
+Score : 15292		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	16	4	4	2
+2 |	4	32		
+3 |	2			
+
+Score : 15296		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |		16	8	2
+2 |			4	32
+3 |		2		2
+
+Score : 15304		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	16	8	2	
+2 |	4	32		2
+3 |	4			
+
+Score : 15308		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	16	8	2	2
+2 |	8	32		
+3 |				2
+
+Score : 15316		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	4
+1 |	2	16	8	4
+2 |			8	32
+3 |				2
+
+Score : 15320		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	16	16	32
+2 |			2	2
+3 |				
+
+Score : 15344		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	32	32	2
+2 |	4			
+3 |				
+
+Score : 15380		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	64	2	
+2 |	4	2		
+3 |				
+
+Score : 15444		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	2	64	2
+2 |			4	2
+3 |				
+
+Score : 15444		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	2
+2 |			4	2
+3 |				
+
+Score : 15448		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	4
+2 |			4	2
+3 |				
+
+Score : 15452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	4
+2 |			4	2
+3 |				2
+
+Score : 15452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	4
+2 |	2		4	2
+3 |				2
+
+Score : 15452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	4
+2 |	2	2	4	2
+3 |				2
+
+Score : 15452		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	4	64	4
+2 |		4	4	2
+3 |			2	2
+
+Score : 15456		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	8	64	4
+2 |			4	4
+3 |			2	2
+
+Score : 15468		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	8	64	8
+2 |	2		4	2
+3 |			2	
+
+Score : 15476		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	8	64	8
+2 |	2	2	4	2
+3 |				2
+
+Score : 15476		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	8
+1 |	2	8	64	8
+2 |		4	4	2
+3 |	2			2
+
+Score : 15480		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	16
+1 |	4	8	64	4
+2 |		4	4	2
+3 |				
+
+Score : 15504		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	16
+1 |	4	8	64	4
+2 |	2	4	4	2
+3 |				
+
+Score : 15504		Moves: DOWN RIGHT LEFT 
+
+
+ Selected move : LEFT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	16
+1 |	4	8	64	4
+2 |	2	8	2	2
+3 |				
+
+Score : 15512		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |	1024	256	512	16
+1 |	4	8	64	4
+2 |	2	2	8	4
+3 |				
+
+Score : 15516		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : DOWN
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |	1024	256	512	
+2 |	4	8	64	16
+3 |	2	2	8	8
+
+Score : 15524		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		1024	256	512
+2 |	4	8	64	16
+3 |	2		4	16
+
+Score : 15544		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : RIGHT
+	0	1	2	3
+   --	----	----	----	----
+0 |				2
+1 |		1024	256	512
+2 |	4	8	64	16
+3 |	2	2	4	16
+
+Score : 15544		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	256	2
+1 |	2	8	64	512
+2 |	2	2	4	32
+3 |				
+
+Score : 15576		Moves: UP DOWN RIGHT LEFT 
+
+
+ Selected move : UP
+	0	1	2	3
+   --	----	----	----	----
+0 |	4	1024	256	2
+1 |	4	8	64	512
+2 |	2	2	4	32
+3 |				
+
+Score : 15580		Moves: UP DOWN RIGHT LEFT 
+
