@@ -1,0 +1,54 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building game2048 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ game2048 ---
+[INFO] Deleting /home/xavier/Bureau/game2048/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ game2048 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ game2048 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to /home/xavier/Bureau/game2048/target/classes
+[WARNING] /home/xavier/Bureau/game2048/src/main/java/com/twiceagain/game2048/MainParametricLearn2.java: Some input files use or override a deprecated API.
+[WARNING] /home/xavier/Bureau/game2048/src/main/java/com/twiceagain/game2048/MainParametricLearn2.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ game2048 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xavier/Bureau/game2048/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ game2048 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/xavier/Bureau/game2048/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ game2048 ---
+[INFO] Surefire report directory: /home/xavier/Bureau/game2048/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.twiceagain.game2048.board.BoardTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.026 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ game2048 ---
+[INFO] Building jar: /home/xavier/Bureau/game2048/target/game2048-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ game2048 ---
+[INFO] Installing /home/xavier/Bureau/game2048/target/game2048-1.0-SNAPSHOT.jar to /home/xavier/.m2/repository/com/twiceagain/game2048/1.0-SNAPSHOT/game2048-1.0-SNAPSHOT.jar
+[INFO] Installing /home/xavier/Bureau/game2048/pom.xml to /home/xavier/.m2/repository/com/twiceagain/game2048/1.0-SNAPSHOT/game2048-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.669 s
+[INFO] Finished at: 2017-03-07T14:21:26+01:00
+[INFO] Final Memory: 18M/172M
+[INFO] ------------------------------------------------------------------------
