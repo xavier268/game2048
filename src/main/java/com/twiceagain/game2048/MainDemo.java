@@ -23,7 +23,7 @@ public class MainDemo {
      */
     public static void main(String[] args) {
         Board b = new BoardImpl(4);
-        Strategy s = new StrategyLTExpectation(new StrategyRandom(), 500);
+        Strategy s = new StrategyLTExpectation(new StrategyRandom(), 200);
         
         while(b.canMove()) {
             Direction d = s.selectMove(b);
